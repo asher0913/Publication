@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this research code, please cite the software record below. A paper citation will be added after publication."
+title: "DDP-CEM: Dual-Path Privacy Protection for Collaborative Face Inference"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Yixuan
+  - family-names: Ren
+    given-names: Jianfeng
+repository-code: "https://github.com/asher0913/Publication"
+version: 0.1.0
+date-released: 2026-09-11

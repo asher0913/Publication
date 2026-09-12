@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "verified",
+  "scope": "Public scalar KMeans statistics and target-training CEM loss path",
+  "upstream_file": "archive/upstream_cem/model_training_paral_pruning.py",
+  "upstream_sha256": "220a6c0ded2ee375871ef3af9b33b8b2003c33d7669981ff26bf04b1f6d1696f",
+  "upstream_regions": {
+    "kmeans": "lines 697-790 in archived source",
+    "training_loss": "lines 890-1018 in archived source",
+    "refresh_schedule": "lines 1657-1880 in archived source"
+  },
+  "tolerance": 1e-07,
+  "errors": {
+    "loss_abs": 0.0,
+    "gradient_max_abs": 0.0,
+    "centroid_max_abs": 0.0,
+    "variance_max_abs": 0.0,
+    "weight_max_abs": 0.0
+  },
+  "limitations": [
+    "Equivalence covers the scalar KMeans path used for target gradients.",
+    "Full covariance log-determinants in upstream are diagnostics, not gradient terms.",
+    "The clean runner intentionally supplies a controlled model/data/optimizer wrapper."
+  ]
+}

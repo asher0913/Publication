@@ -1,0 +1,89 @@
+{
+  "results_root": "results/facescrub/pareto_repair",
+  "experiments": [
+    {
+      "name": "seed120_schedule_n0015_w0030",
+      "overrides": {
+        "seed": 120,
+        "defense.noise_std": 0.015,
+        "defense.privacy_weight": 0.03,
+        "training.gradient_composition": "sum",
+        "training.privacy_weight_schedule": {
+          "warmup_epochs": 60,
+          "ramp_epochs": 120,
+          "warmup_factor": 0.0
+        }
+      }
+    },
+    {
+      "name": "seed120_taskpriority_n0015_w0020",
+      "overrides": {
+        "seed": 120,
+        "defense.noise_std": 0.015,
+        "defense.privacy_weight": 0.02,
+        "training.gradient_composition": "task_priority",
+        "training.privacy_weight_schedule": {
+          "warmup_epochs": 60,
+          "ramp_epochs": 120,
+          "warmup_factor": 0.0
+        }
+      }
+    },
+    {
+      "name": "seed120_taskpriority_n0015_w0030",
+      "overrides": {
+        "seed": 120,
+        "defense.noise_std": 0.015,
+        "defense.privacy_weight": 0.03,
+        "training.gradient_composition": "task_priority",
+        "training.privacy_weight_schedule": {
+          "warmup_epochs": 60,
+          "ramp_epochs": 120,
+          "warmup_factor": 0.0
+        }
+      }
+    },
+    {
+      "name": "seed120_taskpriority_n0025_w0020",
+      "overrides": {
+        "seed": 120,
+        "defense.noise_std": 0.025,
+        "defense.privacy_weight": 0.02,
+        "training.gradient_composition": "task_priority",
+        "training.privacy_weight_schedule": {
+          "warmup_epochs": 60,
+          "ramp_epochs": 120,
+          "warmup_factor": 0.0
+        }
+      }
+    },
+    {
+      "name": "seed120_taskpriority_n0025_w0030",
+      "overrides": {
+        "seed": 120,
+        "defense.noise_std": 0.025,
+        "defense.privacy_weight": 0.03,
+        "training.gradient_composition": "task_priority",
+        "training.privacy_weight_schedule": {
+          "warmup_epochs": 60,
+          "ramp_epochs": 120,
+          "warmup_factor": 0.0
+        }
+      }
+    },
+    {
+      "name": "seed120_taskpriority_n0025_w0040",
+      "overrides": {
+        "seed": 120,
+        "defense.noise_std": 0.025,
+        "defense.privacy_weight": 0.04,
+        "training.gradient_composition": "task_priority",
+        "training.privacy_weight_schedule": {
+          "warmup_epochs": 90,
+          "ramp_epochs": 120,
+          "warmup_factor": 0.0
+        }
+      }
+    }
+  ]
+}

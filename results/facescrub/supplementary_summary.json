@@ -1,0 +1,1527 @@
+{
+  "capacity_match": {
+    "checked_fields": [
+      "client_parameters",
+      "server_parameters",
+      "total_payload_elements",
+      "transmitted_bytes_per_sample_fp32"
+    ],
+    "checks": {
+      "seed126_client_parameters": true,
+      "seed126_server_parameters": true,
+      "seed126_total_payload_elements": true,
+      "seed126_transmitted_bytes_per_sample_fp32": true,
+      "seed127_client_parameters": true,
+      "seed127_server_parameters": true,
+      "seed127_total_payload_elements": true,
+      "seed127_transmitted_bytes_per_sample_fp32": true,
+      "seed128_client_parameters": true,
+      "seed128_server_parameters": true,
+      "seed128_total_payload_elements": true,
+      "seed128_transmitted_bytes_per_sample_fp32": true,
+      "seed129_client_parameters": true,
+      "seed129_server_parameters": true,
+      "seed129_total_payload_elements": true,
+      "seed129_transmitted_bytes_per_sample_fp32": true,
+      "seed130_client_parameters": true,
+      "seed130_server_parameters": true,
+      "seed130_total_payload_elements": true,
+      "seed130_transmitted_bytes_per_sample_fp32": true
+    },
+    "status": "PASS"
+  },
+  "methods": [
+    {
+      "attacker_seeds": [
+        10125,
+        20125,
+        30125
+      ],
+      "intervals": {
+        "accuracy": {
+          "confidence": 0.95,
+          "lower": 0.8180238369857747,
+          "mean": 0.8195617070357555,
+          "n_target_seeds": 5,
+          "standard_deviation": 0.0020092612085295778,
+          "upper": 0.8211610918877353
+        },
+        "decoder_inference_mse": {
+          "confidence": 0.95,
+          "lower": 0.03689022069103386,
+          "mean": 0.03709225594645621,
+          "n_target_seeds": 5,
+          "standard_deviation": 0.00025105094750987395,
+          "upper": 0.037275739458851063
+        },
+        "decoder_training_mse": {
+          "confidence": 0.95,
+          "lower": 0.026397977027467746,
+          "mean": 0.026532018090247737,
+          "n_target_seeds": 5,
+          "standard_deviation": 0.00019132850529129816,
+          "upper": 0.02669294156127445
+        },
+        "gan_inference_mse": {
+          "confidence": 0.95,
+          "lower": 0.04001873359944474,
+          "mean": 0.04039694556279583,
+          "n_target_seeds": 5,
+          "standard_deviation": 0.0005149650441546105,
+          "upper": 0.04080836337928684
+        },
+        "gan_training_mse": {
+          "confidence": 0.95,
+          "lower": 0.03083568146453979,
+          "mean": 0.030993753927236457,
+          "n_target_seeds": 5,
+          "standard_deviation": 0.00019135789174394983,
+          "upper": 0.03114036273332982
+        }
+      },
+      "method": "dual_path_cem",
+      "profile_rows": [
+        {
+          "checkpoint": "results/dual_path_publication/targets/seed126/stage2/checkpoint_best.pt",
+          "checkpoint_file_bytes": 53542194,
+          "client_latency_ms_per_sample_mean": 0.10200621200984661,
+          "client_latency_ms_per_sample_std": 0.0920814461777218,
+          "client_parameters": 20089920,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.12806761632536226,
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.02605535872670397,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 126,
+          "total_model_state_bytes": 120887460,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        },
+        {
+          "checkpoint": "results/dual_path_publication/targets/seed127/stage2/checkpoint_best.pt",
+          "checkpoint_file_bytes": 53542194,
+          "client_latency_ms_per_sample_mean": 0.10276489177106617,
+          "client_latency_ms_per_sample_std": 0.08992649091622038,
+          "client_parameters": 20089920,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.12893428841137147,
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.026164340740139666,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 127,
+          "total_model_state_bytes": 120887460,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        },
+        {
+          "checkpoint": "results/dual_path_publication/targets/seed128/stage2/checkpoint_best.pt",
+          "checkpoint_file_bytes": 53542194,
+          "client_latency_ms_per_sample_mean": 0.09919167058723287,
+          "client_latency_ms_per_sample_std": 0.09156600568726833,
+          "client_parameters": 20089920,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.12434224843853553,
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.02514527067386506,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 128,
+          "total_model_state_bytes": 120887460,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        },
+        {
+          "checkpoint": "results/dual_path_publication/targets/seed129/stage2/checkpoint_best.pt",
+          "checkpoint_file_bytes": 53542194,
+          "client_latency_ms_per_sample_mean": 0.0992389521960539,
+          "client_latency_ms_per_sample_std": 0.09152106592837002,
+          "client_parameters": 20089920,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.12432802644865545,
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.025083014341296735,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 129,
+          "total_model_state_bytes": 120887460,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        },
+        {
+          "checkpoint": "results/dual_path_publication/targets/seed130/stage2/checkpoint_best.pt",
+          "checkpoint_file_bytes": 53542194,
+          "client_latency_ms_per_sample_mean": 0.09755017404008745,
+          "client_latency_ms_per_sample_std": 0.09034673091003087,
+          "client_parameters": 20089920,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.12238687921743512,
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.02483126193622523,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 130,
+          "total_model_state_bytes": 120887460,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        }
+      ],
+      "target_seeds": [
+        126,
+        127,
+        128,
+        129,
+        130
+      ]
+    },
+    {
+      "attack_rows": [
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.026588575164431198,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed126/attacker_seed10125/decoder_training/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.026086743452694728,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed126/attacker_seed20125/decoder_training/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.026947163820541718,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed126/attacker_seed30125/decoder_training/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.036009592859445855,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed126/attacker_seed10125/decoder_inference/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03665985007576065,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed126/attacker_seed20125/decoder_inference/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03742675289362554,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed126/attacker_seed30125/decoder_inference/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.034757911164409516,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed126/attacker_seed10125/gan_training/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.031706632205680076,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed126/attacker_seed20125/gan_training/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.029232608717434775,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed126/attacker_seed30125/gan_training/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.04267192639416232,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed126/attacker_seed10125/gan_inference/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03910412175367207,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed126/attacker_seed20125/gan_inference/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.04001569601092731,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed126/attacker_seed30125/gan_inference/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.02604297130486453,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed127/attacker_seed10125/decoder_training/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.026664060631516984,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed127/attacker_seed20125/decoder_training/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.026542969915968596,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed127/attacker_seed30125/decoder_training/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03542254574946755,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed127/attacker_seed10125/decoder_inference/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.035641744377247826,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed127/attacker_seed20125/decoder_inference/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03695869776172946,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed127/attacker_seed30125/decoder_inference/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.033218876502459804,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed127/attacker_seed10125/gan_training/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.03198555961383026,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed127/attacker_seed20125/gan_training/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.030971960561269066,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed127/attacker_seed30125/gan_training/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03941081541148033,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed127/attacker_seed10125/gan_inference/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.039731483444789446,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed127/attacker_seed20125/gan_inference/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03918714281042509,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed127/attacker_seed30125/gan_inference/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.026464573633941214,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed128/attacker_seed10125/decoder_training/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.026259365983762818,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed128/attacker_seed20125/decoder_training/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.026792220966672036,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed128/attacker_seed30125/decoder_training/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03585879081391297,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed128/attacker_seed10125/decoder_inference/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03601066399942094,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed128/attacker_seed20125/decoder_inference/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03763669999954423,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed128/attacker_seed30125/decoder_inference/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.030356718383812528,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed128/attacker_seed10125/gan_training/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.02968932991071831,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed128/attacker_seed20125/gan_training/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.03308405544335271,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed128/attacker_seed30125/gan_training/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.04089882559185307,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed128/attacker_seed10125/gan_inference/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.04045947980109869,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed128/attacker_seed20125/gan_inference/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.040262154747285325,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed128/attacker_seed30125/gan_inference/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.02640026309590118,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed129/attacker_seed10125/decoder_training/attack_metrics.json",
+          "target_seed": 129
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.026340119722301065,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed129/attacker_seed20125/decoder_training/attack_metrics.json",
+          "target_seed": 129
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.0268085215376781,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed129/attacker_seed30125/decoder_training/attack_metrics.json",
+          "target_seed": 129
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03658446869178402,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed129/attacker_seed10125/decoder_inference/attack_metrics.json",
+          "target_seed": 129
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03577630128926548,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed129/attacker_seed20125/decoder_inference/attack_metrics.json",
+          "target_seed": 129
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.037161226911302525,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed129/attacker_seed30125/decoder_inference/attack_metrics.json",
+          "target_seed": 129
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.028881481857035814,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed129/attacker_seed10125/gan_training/attack_metrics.json",
+          "target_seed": 129
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.029632892740639027,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed129/attacker_seed20125/gan_training/attack_metrics.json",
+          "target_seed": 129
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.03357898161439701,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed129/attacker_seed30125/gan_training/attack_metrics.json",
+          "target_seed": 129
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03983382613407455,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed129/attacker_seed10125/gan_inference/attack_metrics.json",
+          "target_seed": 129
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.0396079018631745,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed129/attacker_seed20125/gan_inference/attack_metrics.json",
+          "target_seed": 129
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.038635370637748315,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed129/attacker_seed30125/gan_inference/attack_metrics.json",
+          "target_seed": 129
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.02646137297680542,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed130/attacker_seed10125/decoder_training/attack_metrics.json",
+          "target_seed": 130
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.026323741236726674,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed130/attacker_seed20125/decoder_training/attack_metrics.json",
+          "target_seed": 130
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.02698731306927427,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed130/attacker_seed30125/decoder_training/attack_metrics.json",
+          "target_seed": 130
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.036780009735906186,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed130/attacker_seed10125/decoder_inference/attack_metrics.json",
+          "target_seed": 130
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.03715856888369471,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed130/attacker_seed20125/decoder_inference/attack_metrics.json",
+          "target_seed": 130
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.0385308533654569,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed130/attacker_seed30125/decoder_inference/attack_metrics.json",
+          "target_seed": 130
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.028700977304906672,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed130/attacker_seed10125/gan_training/attack_metrics.json",
+          "target_seed": 130
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.031078609912407393,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed130/attacker_seed20125/gan_training/attack_metrics.json",
+          "target_seed": 130
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "capacity_matched",
+          "mse": 0.030342714367624157,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed130/attacker_seed30125/gan_training/attack_metrics.json",
+          "target_seed": 130
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.04180541269773699,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed130/attacker_seed10125/gan_inference/attack_metrics.json",
+          "target_seed": 130
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.04323343096374089,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed130/attacker_seed20125/gan_inference/attack_metrics.json",
+          "target_seed": 130
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "capacity_matched",
+          "mse": 0.04038102558890703,
+          "path": "results/dual_path_supplementary/capacity_matched/attacks/target_seed130/attacker_seed30125/gan_inference/attack_metrics.json",
+          "target_seed": 130
+        }
+      ],
+      "attacker_seeds": [
+        10125,
+        20125,
+        30125
+      ],
+      "intervals": {
+        "accuracy": {
+          "confidence": 0.95,
+          "lower": 0.7682583621683968,
+          "mean": 0.7739484813533257,
+          "n_target_seeds": 5,
+          "standard_deviation": 0.007189316322742676,
+          "upper": 0.7796386005382545
+        },
+        "decoder_inference_mse": {
+          "confidence": 0.95,
+          "lower": 0.03624475428713631,
+          "mean": 0.036641117827170985,
+          "n_target_seeds": 5,
+          "standard_deviation": 0.0005390042633136553,
+          "upper": 0.03709578958082603
+        },
+        "decoder_training_mse": {
+          "confidence": 0.95,
+          "lower": 0.026459243238606274,
+          "mean": 0.02651399843420537,
+          "n_target_seeds": 5,
+          "standard_deviation": 6.358555458876801e-05,
+          "upper": 0.026560820125241046
+        },
+        "gan_inference_mse": {
+          "confidence": 0.95,
+          "lower": 0.03962349878202991,
+          "mean": 0.04034924092340506,
+          "n_target_seeds": 5,
+          "standard_deviation": 0.0010029251755100741,
+          "upper": 0.04109205290510742
+        },
+        "gan_training_mse": {
+          "confidence": 0.95,
+          "lower": 0.030504094622126908,
+          "mean": 0.031147954019998474,
+          "n_target_seeds": 5,
+          "standard_deviation": 0.0008416111483963008,
+          "upper": 0.03179181341787003
+        }
+      },
+      "method": "capacity_matched",
+      "profile_rows": [
+        {
+          "checkpoint": "results/dual_path_supplementary/capacity_matched/targets/seed126/target/checkpoint_best.pt",
+          "checkpoint_file_bytes": 53542258,
+          "client_latency_ms_per_sample_mean": 0.10224833966129006,
+          "client_latency_ms_per_sample_std": 0.08990126748711376,
+          "client_parameters": 20089920,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.12832894933123495,
+          "method": "capacity_matched",
+          "path": "results/dual_path_supplementary/capacity_matched/targets/seed126/efficiency_profile.json",
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_backbone": "mobilenet_v3_large",
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.026075013131168938,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 126,
+          "total_model_state_bytes": 120887460,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        },
+        {
+          "checkpoint": "results/dual_path_supplementary/capacity_matched/targets/seed127/target/checkpoint_best.pt",
+          "checkpoint_file_bytes": 53542258,
+          "client_latency_ms_per_sample_mean": 0.10084816531926517,
+          "client_latency_ms_per_sample_std": 0.09216624285355078,
+          "client_parameters": 20089920,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.12633154059935245,
+          "method": "capacity_matched",
+          "path": "results/dual_path_supplementary/capacity_matched/targets/seed127/efficiency_profile.json",
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_backbone": "mobilenet_v3_large",
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.025477524940396432,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 127,
+          "total_model_state_bytes": 120887460,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        },
+        {
+          "checkpoint": "results/dual_path_supplementary/capacity_matched/targets/seed128/target/checkpoint_best.pt",
+          "checkpoint_file_bytes": 53542258,
+          "client_latency_ms_per_sample_mean": 0.10095850201003748,
+          "client_latency_ms_per_sample_std": 0.0927937081278897,
+          "client_parameters": 20089920,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.12678508996272525,
+          "method": "capacity_matched",
+          "path": "results/dual_path_supplementary/capacity_matched/targets/seed128/efficiency_profile.json",
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_backbone": "mobilenet_v3_large",
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.02582077117963322,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 128,
+          "total_model_state_bytes": 120887460,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        },
+        {
+          "checkpoint": "results/dual_path_supplementary/capacity_matched/targets/seed129/target/checkpoint_best.pt",
+          "checkpoint_file_bytes": 53542258,
+          "client_latency_ms_per_sample_mean": 0.09891063930811472,
+          "client_latency_ms_per_sample_std": 0.09095345569059693,
+          "client_parameters": 20089920,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.12420561253130764,
+          "method": "capacity_matched",
+          "path": "results/dual_path_supplementary/capacity_matched/targets/seed129/efficiency_profile.json",
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_backbone": "mobilenet_v3_large",
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.025289298347699146,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 129,
+          "total_model_state_bytes": 120887460,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        },
+        {
+          "checkpoint": "results/dual_path_supplementary/capacity_matched/targets/seed130/target/checkpoint_best.pt",
+          "checkpoint_file_bytes": 53542258,
+          "client_latency_ms_per_sample_mean": 0.09824661875036846,
+          "client_latency_ms_per_sample_std": 0.09155652679055858,
+          "client_parameters": 20089920,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.1231697397497965,
+          "method": "capacity_matched",
+          "path": "results/dual_path_supplementary/capacity_matched/targets/seed130/efficiency_profile.json",
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_backbone": "mobilenet_v3_large",
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.02491660548863316,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 130,
+          "total_model_state_bytes": 120887460,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        }
+      ],
+      "target_seeds": [
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "utility_rows": [
+        {
+          "accuracy": 0.7795463283352557,
+          "method": "capacity_matched",
+          "minimum_accuracy": 0.7748558246828143,
+          "path": "results/dual_path_supplementary/capacity_matched/targets/seed126/utility_l031_s010.json",
+          "target_seed": 126
+        },
+        {
+          "accuracy": 0.7668589004229144,
+          "method": "capacity_matched",
+          "minimum_accuracy": 0.7656286043829297,
+          "path": "results/dual_path_supplementary/capacity_matched/targets/seed127/utility_l031_s010.json",
+          "target_seed": 127
+        },
+        {
+          "accuracy": 0.76639753940792,
+          "method": "capacity_matched",
+          "minimum_accuracy": 0.764475201845444,
+          "path": "results/dual_path_supplementary/capacity_matched/targets/seed128/utility_l031_s010.json",
+          "target_seed": 128
+        },
+        {
+          "accuracy": 0.782160707420223,
+          "method": "capacity_matched",
+          "minimum_accuracy": 0.7778546712802769,
+          "path": "results/dual_path_supplementary/capacity_matched/targets/seed129/utility_l031_s010.json",
+          "target_seed": 129
+        },
+        {
+          "accuracy": 0.7747789311803152,
+          "method": "capacity_matched",
+          "minimum_accuracy": 0.7746251441753171,
+          "path": "results/dual_path_supplementary/capacity_matched/targets/seed130/utility_l031_s010.json",
+          "target_seed": 130
+        }
+      ]
+    },
+    {
+      "attack_rows": [
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.026128288343840955,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed126/attacker_seed10125/decoder_training/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.02550541339861068,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed126/attacker_seed20125/decoder_training/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.02602511515575205,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed126/attacker_seed30125/decoder_training/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.03929513266125122,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed126/attacker_seed10125/decoder_inference/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.038855823945595364,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed126/attacker_seed20125/decoder_inference/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.03849134268991941,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed126/attacker_seed30125/decoder_inference/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.027715721152370504,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed126/attacker_seed10125/gan_training/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.03124805448239512,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed126/attacker_seed20125/gan_training/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.028966825918617822,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed126/attacker_seed30125/gan_training/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.044659603917662966,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed126/attacker_seed10125/gan_inference/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.04386172724100514,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed126/attacker_seed20125/gan_inference/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.041713476364570366,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed126/attacker_seed30125/gan_inference/attack_metrics.json",
+          "target_seed": 126
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.025762154367601625,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed127/attacker_seed10125/decoder_training/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.02554482167063195,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed127/attacker_seed20125/decoder_training/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.025665101158027694,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed127/attacker_seed30125/decoder_training/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.03909293718756484,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed127/attacker_seed10125/decoder_inference/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.03894173612587263,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed127/attacker_seed20125/decoder_inference/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.038918528582519346,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed127/attacker_seed30125/decoder_inference/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.03707721795269454,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed127/attacker_seed10125/gan_training/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.03069011606834614,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed127/attacker_seed20125/gan_training/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.030344474503554916,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed127/attacker_seed30125/gan_training/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.04583225844914038,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed127/attacker_seed10125/gan_inference/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.04384421164297525,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed127/attacker_seed20125/gan_inference/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.04165700254667897,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed127/attacker_seed30125/gan_inference/attack_metrics.json",
+          "target_seed": 127
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.02592010399049541,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed128/attacker_seed10125/decoder_training/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.02598574446605197,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed128/attacker_seed20125/decoder_training/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.025703712134854423,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed128/attacker_seed30125/decoder_training/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.037730816421919916,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed128/attacker_seed10125/decoder_inference/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.036186779894399314,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed128/attacker_seed20125/decoder_inference/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "decoder",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.039316571245200826,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed128/attacker_seed30125/decoder_inference/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.02854541032784538,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed128/attacker_seed10125/gan_training/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.02987301550384486,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed128/attacker_seed20125/gan_training/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "training",
+          "method": "resnet18",
+          "mse": 0.030632314935000026,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed128/attacker_seed30125/gan_training/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 10125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.042246912515007416,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed128/attacker_seed10125/gan_inference/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 20125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.04303713410152115,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed128/attacker_seed20125/gan_inference/attack_metrics.json",
+          "target_seed": 128
+        },
+        {
+          "attack": "gan",
+          "attacker_seed": 30125,
+          "knowledge": "inference",
+          "method": "resnet18",
+          "mse": 0.04341947013731642,
+          "path": "results/dual_path_supplementary/resnet18/attacks/target_seed128/attacker_seed30125/gan_inference/attack_metrics.json",
+          "target_seed": 128
+        }
+      ],
+      "attacker_seeds": [
+        10125,
+        20125,
+        30125
+      ],
+      "intervals": {
+        "accuracy": {
+          "confidence": 0.95,
+          "lower": 0.8505190311418684,
+          "mean": 0.8516211713443546,
+          "n_target_seeds": 3,
+          "standard_deviation": 0.001250160030578753,
+          "upper": 0.8529796232218377
+        },
+        "decoder_inference_mse": {
+          "confidence": 0.95,
+          "lower": 0.03774472252050668,
+          "mean": 0.03853662986158254,
+          "n_target_seeds": 3,
+          "standard_deviation": 0.000687766631551583,
+          "upper": 0.038984400631985605
+        },
+        "decoder_training_mse": {
+          "confidence": 0.95,
+          "lower": 0.025657359065420424,
+          "mean": 0.025804494965096306,
+          "n_target_seeds": 3,
+          "standard_deviation": 0.0001276876020739694,
+          "upper": 0.025886272299401228
+        },
+        "gan_inference_mse": {
+          "confidence": 0.95,
+          "lower": 0.042901172251281657,
+          "mean": 0.04336353299065312,
+          "n_target_seeds": 3,
+          "standard_deviation": 0.00044029839236739594,
+          "upper": 0.04377782421293153
+        },
+        "gan_training_mse": {
+          "confidence": 0.95,
+          "lower": 0.029310200517794482,
+          "mean": 0.030565905649407702,
+          "n_target_seeds": 3,
+          "standard_deviation": 0.001860976626125421,
+          "upper": 0.0327039361748652
+        }
+      },
+      "method": "resnet18",
+      "profile_rows": [
+        {
+          "checkpoint": "results/dual_path_supplementary/resnet18/targets/seed126/stage2/checkpoint_best.pt",
+          "checkpoint_file_bytes": 85775562,
+          "client_latency_ms_per_sample_mean": 0.086073184978635,
+          "client_latency_ms_per_sample_std": 0.031038667685405856,
+          "client_parameters": 28179792,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.11154550375286126,
+          "method": "resnet18",
+          "path": "results/dual_path_supplementary/resnet18/targets/seed126/efficiency_profile.json",
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_backbone": "resnet18",
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.02546748687741633,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 126,
+          "total_model_state_bytes": 153187540,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        },
+        {
+          "checkpoint": "results/dual_path_supplementary/resnet18/targets/seed127/stage2/checkpoint_best.pt",
+          "checkpoint_file_bytes": 85775562,
+          "client_latency_ms_per_sample_mean": 0.08716561306310278,
+          "client_latency_ms_per_sample_std": 0.030202443105910456,
+          "client_parameters": 28179792,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.11310501555250062,
+          "method": "resnet18",
+          "path": "results/dual_path_supplementary/resnet18/targets/seed127/efficiency_profile.json",
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_backbone": "resnet18",
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.025934072145791905,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 127,
+          "total_model_state_bytes": 153187540,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        },
+        {
+          "checkpoint": "results/dual_path_supplementary/resnet18/targets/seed128/stage2/checkpoint_best.pt",
+          "checkpoint_file_bytes": 85775562,
+          "client_latency_ms_per_sample_mean": 0.08703921360341103,
+          "client_latency_ms_per_sample_std": 0.03080613312174683,
+          "client_parameters": 28179792,
+          "device": "cuda",
+          "end_to_end_latency_ms_per_sample_mean": 0.1130425506260934,
+          "method": "resnet18",
+          "path": "results/dual_path_supplementary/resnet18/targets/seed128/efficiency_profile.json",
+          "profiled_batches": 24,
+          "profiled_samples": 3055,
+          "semantic_backbone": "resnet18",
+          "semantic_payload_elements": 256,
+          "semantic_payload_shape": [
+            256
+          ],
+          "server_latency_ms_per_sample_mean": 0.025998478163314798,
+          "server_parameters": 10101927,
+          "spatial_payload_elements": 4096,
+          "spatial_payload_shape": [
+            16,
+            16,
+            16
+          ],
+          "target_seed": 128,
+          "total_model_state_bytes": 153187540,
+          "total_payload_elements": 4352,
+          "transmitted_bytes_per_sample_fp32": 17408
+        }
+      ],
+      "target_seeds": [
+        126,
+        127,
+        128
+      ],
+      "utility_rows": [
+        {
+          "accuracy": 0.8505190311418684,
+          "method": "resnet18",
+          "minimum_accuracy": 0.8502883506343714,
+          "path": "results/dual_path_supplementary/resnet18/targets/seed126/utility_l031_s010.json",
+          "target_seed": 126
+        },
+        {
+          "accuracy": 0.8513648596693578,
+          "method": "resnet18",
+          "minimum_accuracy": 0.8500576701268743,
+          "path": "results/dual_path_supplementary/resnet18/targets/seed127/utility_l031_s010.json",
+          "target_seed": 127
+        },
+        {
+          "accuracy": 0.8529796232218377,
+          "method": "resnet18",
+          "minimum_accuracy": 0.8505190311418686,
+          "path": "results/dual_path_supplementary/resnet18/targets/seed128/utility_l031_s010.json",
+          "target_seed": 128
+        }
+      ]
+    }
+  ],
+  "protocol": {
+    "deployment_legacy_noise_std": 0.31,
+    "deployment_semantic_noise_std": 0.1,
+    "knowledge_settings": [
+      "training",
+      "inference"
+    ],
+    "matched_total_epochs": 120,
+    "primary_attacks": [
+      "decoder",
+      "gan"
+    ]
+  },
+  "status": "PASS"
+}

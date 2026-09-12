@@ -1,0 +1,23 @@
+{
+  "results_root": "results/facescrub/selection",
+  "experiments": [
+    {"name": "seed120_no_defense", "overrides": {"seed": 120, "defense.name": "none"}},
+    {"name": "seed120_gaussian_n0015", "overrides": {"seed": 120, "defense.name": "gaussian", "defense.noise_std": 0.015}},
+    {"name": "seed120_gaussian_n0025", "overrides": {"seed": 120, "defense.name": "gaussian", "defense.noise_std": 0.025}},
+    {"name": "seed120_gaussian_n0040", "overrides": {"seed": 120, "defense.name": "gaussian", "defense.noise_std": 0.04}},
+    {"name": "seed120_official_n0015_w003", "overrides": {"seed": 120, "defense.name": "official_cem", "defense.noise_std": 0.015, "defense.privacy_weight": 0.03}},
+    {"name": "seed120_official_n0015_w010", "overrides": {"seed": 120, "defense.name": "official_cem", "defense.noise_std": 0.015, "defense.privacy_weight": 0.1}},
+    {"name": "seed120_official_n0025_w003", "overrides": {"seed": 120, "defense.name": "official_cem", "defense.noise_std": 0.025, "defense.privacy_weight": 0.03}},
+    {"name": "seed120_official_n0025_w010", "overrides": {"seed": 120, "defense.name": "official_cem", "defense.noise_std": 0.025, "defense.privacy_weight": 0.1}},
+    {"name": "seed120_official_n0025_w030", "overrides": {"seed": 120, "defense.name": "official_cem", "defense.noise_std": 0.025, "defense.privacy_weight": 0.3}},
+    {"name": "seed120_official_n0040_w003", "overrides": {"seed": 120, "defense.name": "official_cem", "defense.noise_std": 0.04, "defense.privacy_weight": 0.03}},
+    {"name": "seed120_official_n0040_w010", "overrides": {"seed": 120, "defense.name": "official_cem", "defense.noise_std": 0.04, "defense.privacy_weight": 0.1}},
+    {"name": "seed120_proposed_n0015_w003", "overrides": {"seed": 120, "defense.noise_std": 0.015, "defense.privacy_weight": 0.03}},
+    {"name": "seed120_proposed_n0015_w010", "overrides": {"seed": 120, "defense.noise_std": 0.015, "defense.privacy_weight": 0.1}},
+    {"name": "seed120_proposed_n0025_w003", "overrides": {"seed": 120, "defense.noise_std": 0.025, "defense.privacy_weight": 0.03}},
+    {"name": "seed120_proposed_n0025_w010", "overrides": {"seed": 120, "defense.noise_std": 0.025, "defense.privacy_weight": 0.1}},
+    {"name": "seed120_proposed_n0025_w030", "overrides": {"seed": 120, "defense.noise_std": 0.025, "defense.privacy_weight": 0.3}},
+    {"name": "seed120_proposed_n0040_w003", "overrides": {"seed": 120, "defense.noise_std": 0.04, "defense.privacy_weight": 0.03}},
+    {"name": "seed120_proposed_n0040_w010", "overrides": {"seed": 120, "defense.noise_std": 0.04, "defense.privacy_weight": 0.1}}
+  ]
+}

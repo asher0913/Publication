@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "purpose": "Single architecture pilot from the matched Official CEM checkpoint",
+  "results_root": "results/facescrub/utility_aligned_pilot",
+  "experiments": [
+    {
+      "name": "seed120_uacem_channelonly_n0025_w002",
+      "overrides": {
+        "seed": 120,
+        "model.adaptive_channel_noise.enabled": true,
+        "model.margin_head.enabled": false,
+        "defense.name": "prototype_cem",
+        "defense.noise_std": 0.025,
+        "defense.privacy_weight": 0.02,
+        "training.epochs": 20,
+        "training.optimizer": "adamw",
+        "training.learning_rate": 0.01,
+        "training.weight_decay": 0.0,
+        "training.gradient_composition": "task_priority",
+        "training.margin_weight": 0.0,
+        "training.initialization_checkpoint": "results/facescrub/selection/seed120_official_n0025_w003/checkpoint_best.pt",
+        "training.trainable_model_parts": ["channel_noise"],
+        "training.distillation.checkpoint": null,
+        "training.distillation.weight": 0.0,
+        "training.privacy_weight_schedule.warmup_epochs": 0,
+        "training.privacy_weight_schedule.ramp_epochs": 5,
+        "attack.epochs": 30
+      }
+    }
+  ]
+}

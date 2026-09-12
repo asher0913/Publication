@@ -1,0 +1,7 @@
+{
+  "attacker_seeds": [10125, 20125, 30125],
+  "attack_types": ["conv_decoder"],
+  "selection_policy": "Transfer the FaceScrub validation-selected hyperparameters without secondary-dataset retuning",
+  "expected_target_runs": 30,
+  "expected_attack_runs": 90
+}

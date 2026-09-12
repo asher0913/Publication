@@ -1,0 +1,113 @@
+{
+  "seed": 125,
+  "device": "cuda",
+  "output_dir": "results/facescrub/base",
+  "data": {
+    "root": "../artefact/data/facescrub",
+    "name": "facescrub",
+    "split_manifest": "evidence/data_split_manifest.json",
+    "image_size": 64,
+    "batch_size": 128,
+    "workers": 8
+  },
+  "model": {
+    "name": "vgg11_bn_split",
+    "cut_index": 8,
+    "bottleneck_channels": 16,
+    "pretrained": false,
+    "adaptive_channel_noise": {
+      "enabled": false,
+      "max_log_ratio": 0.6931471805599453,
+      "learnable": true
+    },
+    "margin_head": {
+      "enabled": false,
+      "embedding_dim": 128,
+      "scale": 30.0,
+      "margin": 0.2
+    }
+  },
+  "defense": {
+    "name": "prototype_cem",
+    "noise_std": 0.025,
+    "privacy_weight": 0.1,
+    "epochwise": {
+      "num_clusters": 5,
+      "variance_threshold": 0.15,
+      "threshold_offset": 0.01,
+      "kmeans_iterations": 50,
+      "kmeans_tolerance": 0.0001,
+      "batch_variance_scale": 10.0
+    },
+    "official": {
+      "num_clusters": 5,
+      "variance_threshold": 0.15,
+      "gamma": 0.01,
+      "kmeans_iterations": 50,
+      "batch_variance_scale": 10.0
+    },
+    "regularizer": {
+      "num_slots": 8,
+      "projection_dim": 64,
+      "temperature": 0.1,
+      "prototype_momentum": 0.95,
+      "loss_mode": "mi_bound",
+      "variance_threshold": 0.15,
+      "threshold_offset": 0.01,
+      "numerical_epsilon": 1e-08,
+      "detach_assignments": true,
+      "update_prototypes": true,
+      "min_prototypes_for_loss": 1,
+      "projector_mode": "fixed",
+      "variance_space": "full"
+    }
+  },
+  "training": {
+    "epochs": 300,
+    "optimizer": "sgd",
+    "learning_rate": 0.05,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "gradient_clip": 1.0,
+    "gradient_diagnostic_interval": 50,
+    "gradient_composition": "sum",
+    "margin_weight": 0.0,
+    "initialization_checkpoint": null,
+    "trainable_model_parts": null,
+    "distillation": {
+      "checkpoint": null,
+      "weight": 0.0,
+      "temperature": 2.0
+    },
+    "privacy_weight_schedule": {
+      "warmup_epochs": 0,
+      "ramp_epochs": 0,
+      "warmup_factor": 0.0
+    }
+  },
+  "attack": {
+    "seed": 10125,
+    "auxiliary_root": null,
+    "epochs": 100,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "decoder_width": 128,
+    "adaptive_eot_samples": 4,
+    "gan_weight": 0.01,
+    "gan_discriminator_learning_rate": 0.0002,
+    "evaluation": {
+      "assets_manifest": "evidence/evaluation_assets.json",
+      "lpips": {
+        "enabled": true,
+        "net": "alex",
+        "version": "0.1"
+      },
+      "face_identity": {
+        "enabled": true,
+        "protocol": "evidence/face_identity_protocol.pt",
+        "target_far": 0.001
+      }
+    }
+  }
+}

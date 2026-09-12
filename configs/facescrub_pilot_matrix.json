@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "purpose": "Full-data CUDA timing and memory validation without target-test access",
+  "results_root": "results/facescrub/formal_gpu_pilot",
+  "experiments": [
+    {
+      "name": "seed119_no_defense",
+      "overrides": {
+        "seed": 119,
+        "defense.name": "none",
+        "training.epochs": 2,
+        "attack.epochs": 2
+      }
+    },
+    {
+      "name": "seed119_official_cem",
+      "overrides": {
+        "seed": 119,
+        "defense.name": "official_cem",
+        "training.epochs": 2,
+        "attack.epochs": 2
+      }
+    },
+    {
+      "name": "seed119_proposed",
+      "overrides": {
+        "seed": 119,
+        "training.epochs": 2,
+        "attack.epochs": 2
+      }
+    }
+  ]
+}

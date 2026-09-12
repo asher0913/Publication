@@ -1,0 +1,9 @@
+accuracy,method,minimum_accuracy,path,target_seed
+0.7795463283352557,capacity_matched,0.7748558246828143,results/dual_path_supplementary/capacity_matched/targets/seed126/utility_l031_s010.json,126
+0.7668589004229144,capacity_matched,0.7656286043829297,results/dual_path_supplementary/capacity_matched/targets/seed127/utility_l031_s010.json,127
+0.76639753940792,capacity_matched,0.764475201845444,results/dual_path_supplementary/capacity_matched/targets/seed128/utility_l031_s010.json,128
+0.782160707420223,capacity_matched,0.7778546712802769,results/dual_path_supplementary/capacity_matched/targets/seed129/utility_l031_s010.json,129
+0.7747789311803152,capacity_matched,0.7746251441753171,results/dual_path_supplementary/capacity_matched/targets/seed130/utility_l031_s010.json,130
+0.8505190311418684,resnet18,0.8502883506343714,results/dual_path_supplementary/resnet18/targets/seed126/utility_l031_s010.json,126
+0.8513648596693578,resnet18,0.8500576701268743,results/dual_path_supplementary/resnet18/targets/seed127/utility_l031_s010.json,127
+0.8529796232218377,resnet18,0.8505190311418686,results/dual_path_supplementary/resnet18/targets/seed128/utility_l031_s010.json,128

@@ -1,0 +1,117 @@
+{
+  "attacker_checkpoint": "results/dual_path_facescrub/robust_server_l022_s010_seed125_20260804/attacks_official_l030_s010/decoder_training_seed10125/checkpoint_best.pt",
+  "candidates": [
+    {
+      "attack_runs": [
+        {
+          "inference_mse": 0.024791764515560345,
+          "seed": 10125,
+          "training_mse": 0.01837635667593321
+        }
+      ],
+      "decoder_inference_mse_mean": 0.024791764515560345,
+      "decoder_inference_mse_min": 0.024791764515560345,
+      "decoder_training_mse_mean": 0.01837635667593321,
+      "decoder_training_mse_min": 0.01837635667593321,
+      "legacy_noise_std": 0.31,
+      "maximum_fused_accuracy": 0.8223760092272203,
+      "mean_fused_accuracy": 0.8206074586697424,
+      "minimum_fused_accuracy": 0.8179930795847751,
+      "minimum_normalised_privacy_margin": 1.0096899272490774,
+      "probe_pass": true,
+      "semantic_noise_std": 0.1,
+      "utility_pass": true,
+      "utility_runs": [
+        {
+          "fused_accuracy": 0.8223760092272203,
+          "seed": 100125
+        },
+        {
+          "fused_accuracy": 0.8179930795847751,
+          "seed": 100126
+        },
+        {
+          "fused_accuracy": 0.8214532871972319,
+          "seed": 100127
+        }
+      ]
+    },
+    {
+      "attack_runs": [
+        {
+          "inference_mse": 0.02480171238852979,
+          "seed": 10125,
+          "training_mse": 0.018371433045097075
+        }
+      ],
+      "decoder_inference_mse_mean": 0.02480171238852979,
+      "decoder_inference_mse_min": 0.02480171238852979,
+      "decoder_training_mse_mean": 0.018371433045097075,
+      "decoder_training_mse_min": 0.018371433045097075,
+      "legacy_noise_std": 0.32,
+      "maximum_fused_accuracy": 0.8202998846597462,
+      "mean_fused_accuracy": 0.8191464821222607,
+      "minimum_fused_accuracy": 0.8170703575547866,
+      "minimum_normalised_privacy_margin": 1.0094193980822568,
+      "probe_pass": true,
+      "semantic_noise_std": 0.1,
+      "utility_pass": true,
+      "utility_runs": [
+        {
+          "fused_accuracy": 0.8202998846597462,
+          "seed": 100125
+        },
+        {
+          "fused_accuracy": 0.8170703575547866,
+          "seed": 100126
+        },
+        {
+          "fused_accuracy": 0.8200692041522492,
+          "seed": 100127
+        }
+      ]
+    }
+  ],
+  "dual_path_checkpoint": "results/dual_path_facescrub/robust_server_l022_s010_seed125_20260804/checkpoint_best.pt",
+  "formal_claim_requires_retraining_attackers": true,
+  "inference_mse_threshold": 0.0211,
+  "required_accuracy": 0.8033,
+  "screening_only": true,
+  "selected": {
+    "attack_runs": [
+      {
+        "inference_mse": 0.024791764515560345,
+        "seed": 10125,
+        "training_mse": 0.01837635667593321
+      }
+    ],
+    "decoder_inference_mse_mean": 0.024791764515560345,
+    "decoder_inference_mse_min": 0.024791764515560345,
+    "decoder_training_mse_mean": 0.01837635667593321,
+    "decoder_training_mse_min": 0.01837635667593321,
+    "legacy_noise_std": 0.31,
+    "maximum_fused_accuracy": 0.8223760092272203,
+    "mean_fused_accuracy": 0.8206074586697424,
+    "minimum_fused_accuracy": 0.8179930795847751,
+    "minimum_normalised_privacy_margin": 1.0096899272490774,
+    "probe_pass": true,
+    "semantic_noise_std": 0.1,
+    "utility_pass": true,
+    "utility_runs": [
+      {
+        "fused_accuracy": 0.8223760092272203,
+        "seed": 100125
+      },
+      {
+        "fused_accuracy": 0.8179930795847751,
+        "seed": 100126
+      },
+      {
+        "fused_accuracy": 0.8214532871972319,
+        "seed": 100127
+      }
+    ]
+  },
+  "status": "SCREEN_PASS",
+  "training_mse_threshold": 0.0182
+}

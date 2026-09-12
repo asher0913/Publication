@@ -1,0 +1,60 @@
+{
+  "counts": {
+    "efficiency_target_level.csv": 13,
+    "formal_attack_runs.csv": 70,
+    "formal_component_target_level.csv": 5,
+    "formal_utility_repeats.csv": 15,
+    "formal_utility_target_level.csv": 5,
+    "supplementary_attack_runs.csv": 96,
+    "supplementary_utility_repeats.csv": 24,
+    "supplementary_utility_target_level.csv": 8
+  },
+  "files": {
+    "development_operating_point_screen.json": {
+      "bytes": 3642,
+      "sha256": "6a8873043d5a98de055d992665c72b05e665c3b14d906f1c1945420c42edac46"
+    },
+    "efficiency_target_level.csv": {
+      "bytes": 2031,
+      "sha256": "cc9f7840361b68ab7724b035d2faa07415bb1f84b9e27274795df1618079f9ad"
+    },
+    "formal_attack_runs.csv": {
+      "bytes": 17721,
+      "sha256": "5e2cd9450e4521c9a644f46a65b9b0af3f939c242af58f10e6da284c57c2f8e8"
+    },
+    "formal_component_target_level.csv": {
+      "bytes": 656,
+      "sha256": "ccd36c913bd2a541f0bd04af0d4838d61b2fafd1f6926e4b2a3e816c63351d33"
+    },
+    "formal_summary.json": {
+      "bytes": 46525,
+      "sha256": "8af07b0d8654ca2471ebbd48444399c4519ad3fdcea04719a4013be18fcefb1a"
+    },
+    "formal_utility_repeats.csv": {
+      "bytes": 1697,
+      "sha256": "764edf9f0f0f2a2cc1c23c1799552afa8b4c2a82a33a72b1bc723aec06596c75"
+    },
+    "formal_utility_target_level.csv": {
+      "bytes": 609,
+      "sha256": "2aa235635964eb6df3ff802b691d31313bc45049b771eedc5bc20908ce1ce0c0"
+    },
+    "supplementary_attack_runs.csv": {
+      "bytes": 17765,
+      "sha256": "be29d514cc777d4c12397e6cd6711e3578d6e00fdb1c0f31dad4280f7648165c"
+    },
+    "supplementary_summary.json": {
+      "bytes": 59451,
+      "sha256": "7b4a56e204e800ed2f1c258a2b3665f2b8b319d5d8391e78d156a0ac884edeee"
+    },
+    "supplementary_utility_repeats.csv": {
+      "bytes": 3000,
+      "sha256": "da44b0b26bf69034bb14310bbd56cf53d714899bf06cb1ed8c4cef9e8d4b93e2"
+    },
+    "supplementary_utility_target_level.csv": {
+      "bytes": 1183,
+      "sha256": "41e6f82858a30fbded5e0a79378d4498643f74da9c11c5a930228ef66e007032"
+    }
+  },
+  "schema_version": 2,
+  "scope": "public aggregate evidence for the current FaceScrub DDP experiments"
+}

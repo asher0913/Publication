@@ -1,0 +1,98 @@
+{
+  "seed": 125,
+  "device": "cuda",
+  "output_dir": "results/identity_token/pilot_seed125",
+  "data": {
+    "root": "data/facescrub_official",
+    "name": "facescrub",
+    "num_classes_override": 530,
+    "split_manifest": null,
+    "protocol_mode": "cem_facescrub_paper",
+    "train_augmentation": true,
+    "image_size": 48,
+    "batch_size": 128,
+    "workers": 8
+  },
+  "model": {
+    "name": "mobilenet_slot_split",
+    "backbone_variant": "large",
+    "bottleneck_channels": 128,
+    "num_slots": 4,
+    "slot_iterations": 3,
+    "cloud_hidden_dim": 256,
+    "cloud_layers": 2,
+    "cloud_heads": 4,
+    "dropout": 0.1,
+    "pretrained": true,
+    "adaptive_channel_noise": {
+      "enabled": false,
+      "max_log_ratio": 0.6931471805599453,
+      "learnable": false
+    },
+    "margin_head": {
+      "enabled": true,
+      "embedding_dim": 256,
+      "scale": 30.0,
+      "margin": 0.2
+    }
+  },
+  "defense": {
+    "name": "prototype_cem",
+    "noise_std": 0.025,
+    "privacy_weight": 0.03,
+    "regularizer": {
+      "num_slots": 4,
+      "projection_dim": 128,
+      "temperature": 0.1,
+      "prototype_momentum": 0.95,
+      "loss_mode": "threshold",
+      "variance_threshold": 0.15,
+      "threshold_offset": 0.01,
+      "numerical_epsilon": 1e-08,
+      "detach_assignments": true,
+      "update_prototypes": true,
+      "min_prototypes_for_loss": 1,
+      "projector_mode": "fixed",
+      "variance_space": "full"
+    }
+  },
+  "training": {
+    "epochs": 80,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "label_smoothing": 0.1,
+    "gradient_clip": 1.0,
+    "gradient_diagnostic_interval": 50,
+    "gradient_composition": "task_priority",
+    "margin_weight": 0.1,
+    "initialization_checkpoint": null,
+    "trainable_model_parts": null,
+    "distillation": {
+      "checkpoint": null,
+      "weight": 0.0,
+      "temperature": 2.0
+    },
+    "privacy_weight_schedule": {
+      "warmup_epochs": 5,
+      "ramp_epochs": 10,
+      "warmup_factor": 0.0
+    }
+  },
+  "attack": {
+    "seed": 10125,
+    "auxiliary_root": null,
+    "epochs": 50,
+    "batch_size": 128,
+    "learning_rate": 0.005,
+    "weight_decay": 0.0,
+    "decoder_width": 128,
+    "adaptive_eot_samples": 4,
+    "gan_weight": 0.01,
+    "gan_discriminator_learning_rate": 0.0002,
+    "evaluation": {
+      "lpips": {"enabled": false},
+      "face_identity": {"enabled": false}
+    }
+  }
+}

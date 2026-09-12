@@ -1,0 +1,52 @@
+{
+  "results_root": "results/facescrub/diagnostics",
+  "experiments": [
+    {
+      "name": "projection32",
+      "overrides": {"defense.regularizer.projection_dim": 32}
+    },
+    {
+      "name": "projection64",
+      "overrides": {"defense.regularizer.projection_dim": 64}
+    },
+    {
+      "name": "projection128",
+      "overrides": {"defense.regularizer.projection_dim": 128}
+    },
+    {
+      "name": "slots4",
+      "overrides": {"defense.regularizer.num_slots": 4}
+    },
+    {
+      "name": "slots8",
+      "overrides": {"defense.regularizer.num_slots": 8}
+    },
+    {
+      "name": "slots12",
+      "overrides": {"defense.regularizer.num_slots": 12}
+    },
+    {
+      "name": "threshold_loss",
+      "overrides": {"defense.regularizer.loss_mode": "threshold"}
+    },
+    {
+      "name": "mi_bound_loss",
+      "overrides": {"defense.regularizer.loss_mode": "mi_bound"}
+    },
+    {
+      "name": "learned_projector_full_variance",
+      "overrides": {"defense.regularizer.projector_mode": "learned"}
+    },
+    {
+      "name": "fixed_projected_variance",
+      "overrides": {"defense.regularizer.variance_space": "projected"}
+    },
+    {
+      "name": "learned_projected_variance_shortcut",
+      "overrides": {
+        "defense.regularizer.projector_mode": "learned",
+        "defense.regularizer.variance_space": "projected"
+      }
+    }
+  ]
+}

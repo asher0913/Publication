@@ -1,0 +1,43 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.venv/
+.env
+.env.*
+
+# Private or large research artefacts
+data/
+checkpoints/
+run_logs/
+run_state/
+handoff/
+tmp/
+output/
+generated_configs/
+wandb/
+manifest.json
+*.pt
+*.pth
+*.ckpt
+*.tar
+*.tar.gz
+*.zip
+
+# Only audited aggregate result tables are versioned.
+results/*
+!results/README.md
+!results/facescrub/
+!results/facescrub/**
+
+# The manuscript and private review material live outside this public code repo.
+paper/
+submission/
+supervisor/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz

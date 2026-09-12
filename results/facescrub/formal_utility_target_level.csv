@@ -1,0 +1,6 @@
+accuracy,conservative_accuracy,path,target_seed
+0.8175317185697808,0.8156862745098039,results/dual_path_publication/targets/seed126/utility_l031_s010.json,126
+0.8179930795847751,0.8154555940023068,results/dual_path_publication/targets/seed127/utility_l031_s010.json,127
+0.8190695886197616,0.8184544405997694,results/dual_path_publication/targets/seed128/utility_l031_s010.json,128
+0.8222991157247211,0.8198385236447521,results/dual_path_publication/targets/seed129/utility_l031_s010.json,129
+0.8209150326797386,0.8196078431372549,results/dual_path_publication/targets/seed130/utility_l031_s010.json,130

@@ -1,0 +1,11 @@
+{
+  "results_root": "results/cifar10/generalisation",
+  "experiments": [
+    {"name": "seed125_official", "overrides": {"seed": 125, "defense.name": "official_cem"}},
+    {"name": "seed126_official", "overrides": {"seed": 126, "defense.name": "official_cem"}},
+    {"name": "seed127_official", "overrides": {"seed": 127, "defense.name": "official_cem"}},
+    {"name": "seed125_proposed", "overrides": {"seed": 125}},
+    {"name": "seed126_proposed", "overrides": {"seed": 126}},
+    {"name": "seed127_proposed", "overrides": {"seed": 127}}
+  ]
+}

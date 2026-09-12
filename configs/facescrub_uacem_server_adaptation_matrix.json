@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "purpose": "Server-only adaptation with an exactly frozen transmitted representation",
+  "results_root": "results/facescrub/utility_aligned_server_adaptation",
+  "experiments": [
+    {
+      "name": "seed120_uacem_a030_server_bnfix",
+      "overrides": {
+        "seed": 120,
+        "model.adaptive_channel_noise.enabled": true,
+        "model.margin_head.enabled": false,
+        "defense.name": "gaussian",
+        "defense.noise_std": 0.025,
+        "defense.privacy_weight": 0.0,
+        "training.epochs": 20,
+        "training.optimizer": "sgd",
+        "training.learning_rate": 0.0002,
+        "training.momentum": 0.9,
+        "training.weight_decay": 0.0,
+        "training.gradient_composition": "sum",
+        "training.margin_weight": 0.0,
+        "training.initialization_checkpoint": "results/facescrub/utility_aligned_selection/seed120_uacem_calibrated_a030/checkpoint_best.pt",
+        "training.trainable_model_parts": ["bottleneck_decoder", "cloud", "classifier"],
+        "training.distillation.checkpoint": null,
+        "training.distillation.weight": 0.0,
+        "training.privacy_weight_schedule.warmup_epochs": 0,
+        "training.privacy_weight_schedule.ramp_epochs": 0,
+        "attack.epochs": 100
+      }
+    }
+  ]
+}

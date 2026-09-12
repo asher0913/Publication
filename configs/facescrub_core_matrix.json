@@ -1,0 +1,113 @@
+{
+  "results_root": "results/facescrub/core_matrix",
+  "experiments": [
+    {
+      "name": "seed125_no_defense",
+      "overrides": {"seed": 125, "defense.name": "none"}
+    },
+    {
+      "name": "seed126_no_defense",
+      "overrides": {"seed": 126, "defense.name": "none"}
+    },
+    {
+      "name": "seed127_no_defense",
+      "overrides": {"seed": 127, "defense.name": "none"}
+    },
+    {
+      "name": "seed128_no_defense",
+      "overrides": {"seed": 128, "defense.name": "none"}
+    },
+    {
+      "name": "seed129_no_defense",
+      "overrides": {"seed": 129, "defense.name": "none"}
+    },
+    {
+      "name": "seed125_gaussian",
+      "overrides": {"seed": 125, "defense.name": "gaussian"}
+    },
+    {
+      "name": "seed126_gaussian",
+      "overrides": {"seed": 126, "defense.name": "gaussian"}
+    },
+    {
+      "name": "seed127_gaussian",
+      "overrides": {"seed": 127, "defense.name": "gaussian"}
+    },
+    {
+      "name": "seed128_gaussian",
+      "overrides": {"seed": 128, "defense.name": "gaussian"}
+    },
+    {
+      "name": "seed129_gaussian",
+      "overrides": {"seed": 129, "defense.name": "gaussian"}
+    },
+    {
+      "name": "seed125_official_cem",
+      "overrides": {"seed": 125, "defense.name": "official_cem"}
+    },
+    {
+      "name": "seed126_official_cem",
+      "overrides": {"seed": 126, "defense.name": "official_cem"}
+    },
+    {
+      "name": "seed127_official_cem",
+      "overrides": {"seed": 127, "defense.name": "official_cem"}
+    },
+    {
+      "name": "seed128_official_cem",
+      "overrides": {"seed": 128, "defense.name": "official_cem"}
+    },
+    {
+      "name": "seed129_official_cem",
+      "overrides": {"seed": 129, "defense.name": "official_cem"}
+    },
+    {
+      "name": "seed125_single_prototype",
+      "overrides": {"seed": 125, "defense.regularizer.num_slots": 1}
+    },
+    {
+      "name": "seed126_single_prototype",
+      "overrides": {"seed": 126, "defense.regularizer.num_slots": 1}
+    },
+    {
+      "name": "seed127_single_prototype",
+      "overrides": {"seed": 127, "defense.regularizer.num_slots": 1}
+    },
+    {
+      "name": "seed128_single_prototype",
+      "overrides": {"seed": 128, "defense.regularizer.num_slots": 1}
+    },
+    {
+      "name": "seed129_single_prototype",
+      "overrides": {"seed": 129, "defense.regularizer.num_slots": 1}
+    },
+    {
+      "name": "seed125_slots8",
+      "overrides": {"seed": 125}
+    },
+    {
+      "name": "seed126_slots8",
+      "overrides": {"seed": 126}
+    },
+    {
+      "name": "seed127_slots8",
+      "overrides": {"seed": 127}
+    },
+    {
+      "name": "seed128_slots8",
+      "overrides": {"seed": 128}
+    },
+    {
+      "name": "seed129_slots8",
+      "overrides": {"seed": 129}
+    },
+    {
+      "name": "seed125_slots8_weight003",
+      "overrides": {"seed": 125, "defense.privacy_weight": 0.03}
+    },
+    {
+      "name": "seed125_slots8_weight030",
+      "overrides": {"seed": 125, "defense.privacy_weight": 0.3}
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "utility_drop_limit": 0.01,
+  "bootstrap_iterations": 10000,
+  "confidence_level": 0.975,
+  "multiple_endpoint_control": "Bonferroni for two co-primary privacy endpoints",
+  "primary_privacy_metrics": ["mse", "identity_top1_success"],
+  "primary_attack_type": "conv_decoder",
+  "minimum_target_pairs": 5,
+  "privacy_benefit_direction": {
+    "mse": 1,
+    "lpips": 1,
+    "ssim": -1,
+    "psnr": -1,
+    "identity_top1_success": -1,
+    "face_cosine_similarity": -1,
+    "verification_tar_at_far": -1
+  },
+  "minimum_practical_effect": {
+    "mse": 0.001,
+    "lpips": 0.01,
+    "ssim": 0.01,
+    "psnr": 0.25,
+    "identity_top1_success": 0.01,
+    "face_cosine_similarity": 0.01,
+    "verification_tar_at_far": 0.01
+  }
+}

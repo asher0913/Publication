@@ -1,0 +1,17 @@
+{
+  "results_root": "results/facescrub/generalisation",
+  "experiments": [
+    {"name": "seed125_vgg_cut15_official", "overrides": {"seed": 125, "model.cut_index": 15, "defense.name": "official_cem"}},
+    {"name": "seed126_vgg_cut15_official", "overrides": {"seed": 126, "model.cut_index": 15, "defense.name": "official_cem"}},
+    {"name": "seed127_vgg_cut15_official", "overrides": {"seed": 127, "model.cut_index": 15, "defense.name": "official_cem"}},
+    {"name": "seed125_vgg_cut15_proposed", "overrides": {"seed": 125, "model.cut_index": 15}},
+    {"name": "seed126_vgg_cut15_proposed", "overrides": {"seed": 126, "model.cut_index": 15}},
+    {"name": "seed127_vgg_cut15_proposed", "overrides": {"seed": 127, "model.cut_index": 15}},
+    {"name": "seed125_resnet_cut2_official", "overrides": {"seed": 125, "model.name": "resnet18_split", "model.cut_index": 2, "defense.name": "official_cem"}},
+    {"name": "seed126_resnet_cut2_official", "overrides": {"seed": 126, "model.name": "resnet18_split", "model.cut_index": 2, "defense.name": "official_cem"}},
+    {"name": "seed127_resnet_cut2_official", "overrides": {"seed": 127, "model.name": "resnet18_split", "model.cut_index": 2, "defense.name": "official_cem"}},
+    {"name": "seed125_resnet_cut2_proposed", "overrides": {"seed": 125, "model.name": "resnet18_split", "model.cut_index": 2}},
+    {"name": "seed126_resnet_cut2_proposed", "overrides": {"seed": 126, "model.name": "resnet18_split", "model.cut_index": 2}},
+    {"name": "seed127_resnet_cut2_proposed", "overrides": {"seed": 127, "model.name": "resnet18_split", "model.cut_index": 2}}
+  ]
+}

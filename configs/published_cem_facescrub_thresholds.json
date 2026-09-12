@@ -1,0 +1,27 @@
+{
+  "source": {
+    "title": "Theoretical Insights in Model Inversion Robustness and Conditional Entropy Maximization for Collaborative Inference Systems",
+    "venue": "CVPR 2025",
+    "table": 3,
+    "dataset": "FaceScrub"
+  },
+  "metric_directions": {
+    "accuracy": "higher",
+    "decoder_inference_mse": "higher",
+    "gan_inference_mse": "higher"
+  },
+  "baselines": {
+    "bottleneck_cem": {
+      "accuracy": 0.85,
+      "decoder_inference_mse": 0.0035,
+      "gan_inference_mse": 0.0037
+    },
+    "noise_arl_cem": {
+      "accuracy": 0.8033,
+      "decoder_training_mse": 0.0182,
+      "decoder_inference_mse": 0.0211,
+      "gan_training_mse": 0.0212,
+      "gan_inference_mse": 0.0231
+    }
+  }
+}

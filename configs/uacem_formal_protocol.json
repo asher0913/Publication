@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "method": "utility_aligned_anisotropic_cem",
+  "selection": {
+    "alpha": 0.3,
+    "score": "reconstruction_to_task",
+    "minimum_multiplier": 0.5,
+    "maximum_multiplier": 2.0,
+    "noise_std": 0.025,
+    "official_privacy_weight": 0.03,
+    "selection_seed": 120,
+    "target_test_accessed": false
+  },
+  "main": {
+    "target_seeds": [125, 126, 127, 128, 129],
+    "attacker_seeds": [10125, 20125, 30125],
+    "control_methods": ["no_defense", "gaussian", "official_cem"],
+    "strong_attack_methods": ["official_cem", "uacem"],
+    "primary_attack_types": ["conv_decoder"],
+    "strong_attack_types": ["residual_decoder", "gan", "adaptive"]
+  },
+  "generalisation": {
+    "target_seeds": [125, 126, 127],
+    "attacker_seeds": [10125, 20125, 30125],
+    "attack_types": ["conv_decoder"],
+    "variants": [
+      {
+        "name": "facescrub_vgg_cut15",
+        "base": "configs/facescrub_base.json",
+        "overrides": {"model.cut_index": 15}
+      },
+      {
+        "name": "facescrub_resnet_cut2",
+        "base": "configs/facescrub_base.json",
+        "overrides": {"model.name": "resnet18_split", "model.cut_index": 2}
+      },
+      {
+        "name": "cifar10_vgg_cut8",
+        "base": "configs/cifar10_base.json",
+        "overrides": {}
+      },
+      {
+        "name": "cifar100_vgg_cut8",
+        "base": "configs/cifar100_base.json",
+        "overrides": {}
+      }
+    ]
+  },
+  "ablation": {
+    "source_checkpoint": "results/facescrub/selection/seed120_official_n0025_w003/checkpoint_best.pt",
+    "attacker_seeds": [10120, 20120, 30120],
+    "variants": [
+      {"name": "uniform_a000", "score": "reconstruction_to_task", "alpha": 0.0},
+      {"name": "reconstruction_only_a030", "score": "reconstruction_only", "alpha": 0.3},
+      {"name": "inverse_task_a030", "score": "inverse_task", "alpha": 0.3},
+      {"name": "ratio_a030", "score": "reconstruction_to_task", "alpha": 0.3},
+      {"name": "ratio_a050", "score": "reconstruction_to_task", "alpha": 0.5}
+    ]
+  }
+}

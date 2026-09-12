@@ -1,0 +1,15 @@
+{
+  "attacker_seeds": [10125, 20125, 30125],
+  "tiers": [
+    {
+      "name": "primary_decoder",
+      "target_name_regex": "seed12[5-9]_(no_defense|gaussian|official_cem|single_prototype|slots8)",
+      "attack_types": ["conv_decoder"]
+    },
+    {
+      "name": "strong_adaptive_suite",
+      "target_name_regex": "seed12[5-9]_(official_cem|slots8)",
+      "attack_types": ["residual_decoder", "gan", "adaptive"]
+    }
+  ]
+}

@@ -1,0 +1,1356 @@
+{
+  "attack_records": [
+    {
+      "attack": "decoder",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.35339289118536893,
+      "knowledge": "training",
+      "lpips": 0.32566476108385295,
+      "mae": 0.11798822666213678,
+      "mse": 0.026567775054603116,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed10125/decoder_training/attack_metrics.json",
+      "psnr": 16.532818113075503,
+      "ssim": 0.5426849705491877,
+      "target_seed": 126
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.3479384671995522,
+      "knowledge": "training",
+      "lpips": 0.32307271521075875,
+      "mae": 0.11945356481215534,
+      "mse": 0.02682657318819216,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed20125/decoder_training/attack_metrics.json",
+      "psnr": 16.523549911692616,
+      "ssim": 0.5356594709009905,
+      "target_seed": 126
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.3754970452273089,
+      "knowledge": "training",
+      "lpips": 0.2972739272830762,
+      "mae": 0.11787285956911105,
+      "mse": 0.027111757704497575,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed30125/decoder_training/attack_metrics.json",
+      "psnr": 16.500473450716072,
+      "ssim": 0.5508948115283184,
+      "target_seed": 126
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.09189316894202344,
+      "knowledge": "inference",
+      "lpips": 0.5256756201810888,
+      "mae": 0.14786981343305322,
+      "mse": 0.03669957842984688,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed10125/decoder_inference/attack_metrics.json",
+      "psnr": 14.919376646398673,
+      "ssim": 0.45404092085370656,
+      "target_seed": 126
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.08021550916359,
+      "knowledge": "inference",
+      "lpips": 0.5345674475125848,
+      "mae": 0.1495749845791083,
+      "mse": 0.036675448046912584,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed20125/decoder_inference/attack_metrics.json",
+      "psnr": 14.906908559468823,
+      "ssim": 0.4475812493515896,
+      "target_seed": 126
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.041509570297229466,
+      "knowledge": "inference",
+      "lpips": 0.5741471488077518,
+      "mae": 0.15160968213745776,
+      "mse": 0.037789528327689344,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed30125/decoder_inference/attack_metrics.json",
+      "psnr": 14.751080872004907,
+      "ssim": 0.44074810753426613,
+      "target_seed": 126
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.19003854683388752,
+      "knowledge": "training",
+      "lpips": 0.33032932772814244,
+      "mae": 0.12979778053667948,
+      "mse": 0.03041331886282704,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed10125/gan_training/attack_metrics.json",
+      "psnr": 15.78416829239355,
+      "ssim": 0.4606101623089302,
+      "target_seed": 126
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.27361953923079835,
+      "knowledge": "training",
+      "lpips": 0.2670439952247558,
+      "mae": 0.1248059112537095,
+      "mse": 0.029503450463341546,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed20125/gan_training/attack_metrics.json",
+      "psnr": 16.001028262867646,
+      "ssim": 0.49764490065231826,
+      "target_seed": 126
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.19554092894146782,
+      "knowledge": "training",
+      "lpips": 0.3815439613632677,
+      "mae": 0.13373826308142264,
+      "mse": 0.03298983359419352,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed30125/gan_training/attack_metrics.json",
+      "psnr": 15.377331679071752,
+      "ssim": 0.44273881981896235,
+      "target_seed": 126
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.08358738438912407,
+      "knowledge": "inference",
+      "lpips": 0.45524713458970845,
+      "mae": 0.1567212736909439,
+      "mse": 0.04157021194352289,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed10125/gan_inference/attack_metrics.json",
+      "psnr": 14.367140513736528,
+      "ssim": 0.4170366423785274,
+      "target_seed": 126
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.08256776118113317,
+      "knowledge": "inference",
+      "lpips": 0.5174395096494749,
+      "mae": 0.15788602792271475,
+      "mse": 0.04179142033530714,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed20125/gan_inference/attack_metrics.json",
+      "psnr": 14.257288697134817,
+      "ssim": 0.3889517545516534,
+      "target_seed": 126
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.06202250943907047,
+      "knowledge": "inference",
+      "lpips": 0.5416280615779415,
+      "mae": 0.15402934402571541,
+      "mse": 0.039861693760355775,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed30125/gan_inference/attack_metrics.json",
+      "psnr": 14.51083258907092,
+      "ssim": 0.41538005356058144,
+      "target_seed": 126
+    },
+    {
+      "attack": "adaptive",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.3084767108053393,
+      "knowledge": "training",
+      "lpips": 0.37166117045201963,
+      "mae": 0.11833041908648416,
+      "mse": 0.026493127618281487,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed10125/adaptive_training/attack_metrics.json",
+      "psnr": 16.510685512332998,
+      "ssim": 0.5296948589484813,
+      "target_seed": 126
+    },
+    {
+      "attack": "adaptive",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.08479343587568487,
+      "knowledge": "inference",
+      "lpips": 0.5292226425769972,
+      "mae": 0.1498419664014386,
+      "mse": 0.037896684906499216,
+      "path": "results/dual_path_publication/attacks/target_seed126/attacker_seed10125/adaptive_inference/attack_metrics.json",
+      "psnr": 14.787338667965743,
+      "ssim": 0.45003026150298914,
+      "target_seed": 126
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.3417555026208745,
+      "knowledge": "training",
+      "lpips": 0.3416221721316246,
+      "mae": 0.11731468928130669,
+      "mse": 0.026346212128225268,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed10125/decoder_training/attack_metrics.json",
+      "psnr": 16.540242841545318,
+      "ssim": 0.539209461908806,
+      "target_seed": 127
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.3103761296783764,
+      "knowledge": "training",
+      "lpips": 0.37376321912132654,
+      "mae": 0.11787261801561637,
+      "mse": 0.02595444594562535,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed20125/decoder_training/attack_metrics.json",
+      "psnr": 16.578402575031237,
+      "ssim": 0.5316223613851944,
+      "target_seed": 127
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.27660732657943304,
+      "knowledge": "training",
+      "lpips": 0.40171975059171955,
+      "mae": 0.12095734238028755,
+      "mse": 0.026793134565401056,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed30125/decoder_training/attack_metrics.json",
+      "psnr": 16.390100674920703,
+      "ssim": 0.5192074826661095,
+      "target_seed": 127
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.09311775137040136,
+      "knowledge": "inference",
+      "lpips": 0.510333266049004,
+      "mae": 0.1493813350991711,
+      "mse": 0.036911591463037595,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed10125/decoder_inference/attack_metrics.json",
+      "psnr": 14.820026635573036,
+      "ssim": 0.4563897994043646,
+      "target_seed": 127
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.08531730922026483,
+      "knowledge": "inference",
+      "lpips": 0.5207888608349571,
+      "mae": 0.14900348918817885,
+      "mse": 0.036680028106360556,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed20125/decoder_inference/attack_metrics.json",
+      "psnr": 14.834379623448326,
+      "ssim": 0.4556977857159504,
+      "target_seed": 127
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.0504698191724253,
+      "knowledge": "inference",
+      "lpips": 0.5770129643558447,
+      "mae": 0.1531325421762797,
+      "mse": 0.03800255743882764,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed30125/decoder_inference/attack_metrics.json",
+      "psnr": 14.685888371162912,
+      "ssim": 0.4350071144250836,
+      "target_seed": 127
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.2865379823349568,
+      "knowledge": "training",
+      "lpips": 0.31192026163971637,
+      "mae": 0.1266914417541105,
+      "mse": 0.02915735402413397,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed10125/gan_training/attack_metrics.json",
+      "psnr": 16.007729317600198,
+      "ssim": 0.48619535945553544,
+      "target_seed": 127
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.1683392475953885,
+      "knowledge": "training",
+      "lpips": 0.4144777197509672,
+      "mae": 0.1335934584345189,
+      "mse": 0.03221148879928618,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed20125/gan_training/attack_metrics.json",
+      "psnr": 15.523923509737841,
+      "ssim": 0.47614228961010346,
+      "target_seed": 127
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.22052925282925287,
+      "knowledge": "training",
+      "lpips": 0.44615636911359213,
+      "mae": 0.13110183751019366,
+      "mse": 0.0316057323996996,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed30125/gan_training/attack_metrics.json",
+      "psnr": 15.611405713097126,
+      "ssim": 0.47671349220026554,
+      "target_seed": 127
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.06416146070613964,
+      "knowledge": "inference",
+      "lpips": 0.5271251405359141,
+      "mae": 0.15316207304287177,
+      "mse": 0.03929810527657618,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed10125/gan_inference/attack_metrics.json",
+      "psnr": 14.518730979960546,
+      "ssim": 0.4035533643668206,
+      "target_seed": 127
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.09707204041983919,
+      "knowledge": "inference",
+      "lpips": 0.4487050550547446,
+      "mae": 0.15595236404571652,
+      "mse": 0.04164906517187387,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed20125/gan_inference/attack_metrics.json",
+      "psnr": 14.287907201753754,
+      "ssim": 0.40959845257319333,
+      "target_seed": 127
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.08524497680429131,
+      "knowledge": "inference",
+      "lpips": 0.497344077964119,
+      "mae": 0.15739880826860506,
+      "mse": 0.041224862539924224,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed30125/gan_inference/attack_metrics.json",
+      "psnr": 14.291470639975463,
+      "ssim": 0.4115886908480532,
+      "target_seed": 127
+    },
+    {
+      "attack": "adaptive",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.3373276795207973,
+      "knowledge": "training",
+      "lpips": 0.3391350910050372,
+      "mae": 0.11935643669459876,
+      "mse": 0.026789848220572936,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed10125/adaptive_training/attack_metrics.json",
+      "psnr": 16.483269486946128,
+      "ssim": 0.534516509575644,
+      "target_seed": 127
+    },
+    {
+      "attack": "adaptive",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.04931189446746615,
+      "knowledge": "inference",
+      "lpips": 0.592433914760152,
+      "mae": 0.15461537432358574,
+      "mse": 0.03753697789568824,
+      "path": "results/dual_path_publication/attacks/target_seed127/attacker_seed10125/adaptive_inference/attack_metrics.json",
+      "psnr": 14.726665305944477,
+      "ssim": 0.4315611829750348,
+      "target_seed": 127
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.2983588553446616,
+      "knowledge": "training",
+      "lpips": 0.3814472883401216,
+      "mae": 0.1196730319283092,
+      "mse": 0.026280851411801125,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed10125/decoder_training/attack_metrics.json",
+      "psnr": 16.463939425341213,
+      "ssim": 0.5234598097458384,
+      "target_seed": 128
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.3732708184089353,
+      "knowledge": "training",
+      "lpips": 0.31409464788088565,
+      "mae": 0.11641559182841336,
+      "mse": 0.026065455909327146,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed20125/decoder_training/attack_metrics.json",
+      "psnr": 16.640171899029223,
+      "ssim": 0.5476159928441735,
+      "target_seed": 128
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.38711831145266395,
+      "knowledge": "training",
+      "lpips": 0.2981648516627469,
+      "mae": 0.11825913763284591,
+      "mse": 0.026792444150661426,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed30125/decoder_training/attack_metrics.json",
+      "psnr": 16.53813232515739,
+      "ssim": 0.5480076597361141,
+      "target_seed": 128
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.07572325823213433,
+      "knowledge": "inference",
+      "lpips": 0.5294834750720957,
+      "mae": 0.14898840512928366,
+      "mse": 0.03635416625553686,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed10125/decoder_inference/attack_metrics.json",
+      "psnr": 14.89207913088193,
+      "ssim": 0.4520351653653351,
+      "target_seed": 128
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.09390886055679852,
+      "knowledge": "inference",
+      "lpips": 0.513539661527873,
+      "mae": 0.1480295226792357,
+      "mse": 0.03644241747074259,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed20125/decoder_inference/attack_metrics.json",
+      "psnr": 14.881762638928985,
+      "ssim": 0.45012804579055704,
+      "target_seed": 128
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.05846204823764863,
+      "knowledge": "inference",
+      "lpips": 0.5354953851031744,
+      "mae": 0.1510428736263096,
+      "mse": 0.03740492630592211,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed30125/decoder_inference/attack_metrics.json",
+      "psnr": 14.774170297765108,
+      "ssim": 0.4460777417800352,
+      "target_seed": 128
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.23930675883514976,
+      "knowledge": "training",
+      "lpips": 0.35612607704406063,
+      "mae": 0.13066917589562346,
+      "mse": 0.03207671390226922,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed10125/gan_training/attack_metrics.json",
+      "psnr": 15.523414878742551,
+      "ssim": 0.47063683931848627,
+      "target_seed": 128
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.196347302558192,
+      "knowledge": "training",
+      "lpips": 0.2803550564752364,
+      "mae": 0.1260261325916846,
+      "mse": 0.030760086833949457,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed20125/gan_training/attack_metrics.json",
+      "psnr": 15.833021779483852,
+      "ssim": 0.47308066667661625,
+      "target_seed": 128
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.23355425167707056,
+      "knowledge": "training",
+      "lpips": 0.3533536201896506,
+      "mae": 0.13062337400912322,
+      "mse": 0.030881962781683935,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed30125/gan_training/attack_metrics.json",
+      "psnr": 15.74825928954609,
+      "ssim": 0.47719971313241905,
+      "target_seed": 128
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.07508209175656078,
+      "knowledge": "inference",
+      "lpips": 0.5635230612809884,
+      "mae": 0.15454181439147904,
+      "mse": 0.038419209965565644,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed10125/gan_inference/attack_metrics.json",
+      "psnr": 14.57747433422344,
+      "ssim": 0.4246991974652226,
+      "target_seed": 128
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.06817506844489,
+      "knowledge": "inference",
+      "lpips": 0.5180194023666793,
+      "mae": 0.15257247325729825,
+      "mse": 0.03882743176173209,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed20125/gan_inference/attack_metrics.json",
+      "psnr": 14.574270810779927,
+      "ssim": 0.4178657267440549,
+      "target_seed": 128
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.05826975768855024,
+      "knowledge": "inference",
+      "lpips": 0.5522180194575755,
+      "mae": 0.1613835458850934,
+      "mse": 0.04198550480526168,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed30125/gan_inference/attack_metrics.json",
+      "psnr": 14.22102131597623,
+      "ssim": 0.3956890326449282,
+      "target_seed": 128
+    },
+    {
+      "attack": "adaptive",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.3653823283487721,
+      "knowledge": "training",
+      "lpips": 0.3202749115189696,
+      "mae": 0.1187580715826226,
+      "mse": 0.02717465756719546,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed10125/adaptive_training/attack_metrics.json",
+      "psnr": 16.4774146925161,
+      "ssim": 0.5444316308161975,
+      "target_seed": 128
+    },
+    {
+      "attack": "adaptive",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.07228080376558253,
+      "knowledge": "inference",
+      "lpips": 0.5535254063653983,
+      "mae": 0.15202754125675852,
+      "mse": 0.03727790334758802,
+      "path": "results/dual_path_publication/attacks/target_seed128/attacker_seed10125/adaptive_inference/attack_metrics.json",
+      "psnr": 14.760743503115378,
+      "ssim": 0.4408350262484062,
+      "target_seed": 128
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.2851776058515279,
+      "knowledge": "training",
+      "lpips": 0.38413767391147635,
+      "mae": 0.12016638668167368,
+      "mse": 0.026442487732074388,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed10125/decoder_training/attack_metrics.json",
+      "psnr": 16.448742070357554,
+      "ssim": 0.5209874869951235,
+      "target_seed": 129
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.3423452809241037,
+      "knowledge": "training",
+      "lpips": 0.336869275226175,
+      "mae": 0.11774759992917012,
+      "mse": 0.026340684630420746,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed20125/decoder_training/attack_metrics.json",
+      "psnr": 16.569287447285898,
+      "ssim": 0.5355444028532447,
+      "target_seed": 129
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.3221214913350259,
+      "knowledge": "training",
+      "lpips": 0.35101220975331,
+      "mae": 0.11958976769071504,
+      "mse": 0.026953881742953337,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed30125/decoder_training/attack_metrics.json",
+      "psnr": 16.442444894241394,
+      "ssim": 0.5337014461929456,
+      "target_seed": 129
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.05988922515587223,
+      "knowledge": "inference",
+      "lpips": 0.5587024174808447,
+      "mae": 0.15001983583845296,
+      "mse": 0.03667755472008497,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed10125/decoder_inference/attack_metrics.json",
+      "psnr": 14.816779508877019,
+      "ssim": 0.4453881596307556,
+      "target_seed": 129
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.06412645593985307,
+      "knowledge": "inference",
+      "lpips": 0.5507652100643073,
+      "mae": 0.14939848068037612,
+      "mse": 0.03671608382321211,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed20125/decoder_inference/attack_metrics.json",
+      "psnr": 14.787508758239511,
+      "ssim": 0.4498173315035003,
+      "target_seed": 129
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.03904142812915359,
+      "knowledge": "inference",
+      "lpips": 0.5749290413449047,
+      "mae": 0.15303649197549798,
+      "mse": 0.03776096471738045,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed30125/decoder_inference/attack_metrics.json",
+      "psnr": 14.676402596348153,
+      "ssim": 0.43727204026948313,
+      "target_seed": 129
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.09019704574532161,
+      "knowledge": "training",
+      "lpips": 0.5317218086802927,
+      "mae": 0.13544847429004922,
+      "mse": 0.031990927029279324,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed10125/gan_training/attack_metrics.json",
+      "psnr": 15.485118441524895,
+      "ssim": 0.4227173731538801,
+      "target_seed": 129
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.3048522315635813,
+      "knowledge": "training",
+      "lpips": 0.3502439464435629,
+      "mae": 0.12038864640261933,
+      "mse": 0.027359653885022622,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed20125/gan_training/attack_metrics.json",
+      "psnr": 16.374138045613464,
+      "ssim": 0.5217641077331284,
+      "target_seed": 129
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.1860467675372941,
+      "knowledge": "training",
+      "lpips": 0.34290236693444226,
+      "mae": 0.13509194382517578,
+      "mse": 0.03382864658395312,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed30125/gan_training/attack_metrics.json",
+      "psnr": 15.298082487054259,
+      "ssim": 0.4331424254080462,
+      "target_seed": 129
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.08442755384202917,
+      "knowledge": "inference",
+      "lpips": 0.47502786402889546,
+      "mae": 0.15655072970606898,
+      "mse": 0.040023531704521616,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed10125/gan_inference/attack_metrics.json",
+      "psnr": 14.421036577114608,
+      "ssim": 0.39196283987983543,
+      "target_seed": 129
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.05762162623357736,
+      "knowledge": "inference",
+      "lpips": 0.6013447891482029,
+      "mae": 0.15639097934690596,
+      "mse": 0.0403883829770224,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed20125/gan_inference/attack_metrics.json",
+      "psnr": 14.397147069260008,
+      "ssim": 0.415436677881348,
+      "target_seed": 129
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.05859666168001452,
+      "knowledge": "inference",
+      "lpips": 0.5596377965209115,
+      "mae": 0.1549642737596378,
+      "mse": 0.040424730155539566,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed30125/gan_inference/attack_metrics.json",
+      "psnr": 14.444890375408969,
+      "ssim": 0.4298825047399743,
+      "target_seed": 129
+    },
+    {
+      "attack": "adaptive",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.3292716542925573,
+      "knowledge": "training",
+      "lpips": 0.35761737874818283,
+      "mae": 0.11925294209516585,
+      "mse": 0.026580179677198414,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed10125/adaptive_training/attack_metrics.json",
+      "psnr": 16.478614839394705,
+      "ssim": 0.5336409460622867,
+      "target_seed": 129
+    },
+    {
+      "attack": "adaptive",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.04413886029872644,
+      "knowledge": "inference",
+      "lpips": 0.5849635511109056,
+      "mae": 0.15176172528109064,
+      "mse": 0.03681025016849274,
+      "path": "results/dual_path_publication/attacks/target_seed129/attacker_seed10125/adaptive_inference/attack_metrics.json",
+      "psnr": 14.76960962308747,
+      "ssim": 0.44012789472972,
+      "target_seed": 129
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.3422781363857201,
+      "knowledge": "training",
+      "lpips": 0.3366120910057881,
+      "mae": 0.11816346264948803,
+      "mse": 0.026407130687615358,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed10125/decoder_training/attack_metrics.json",
+      "psnr": 16.561555238670223,
+      "ssim": 0.5387696380204579,
+      "target_seed": 130
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.3168047695607233,
+      "knowledge": "training",
+      "lpips": 0.35711918896503153,
+      "mae": 0.11866368957777658,
+      "mse": 0.02618943500042145,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed20125/decoder_training/attack_metrics.json",
+      "psnr": 16.538279372717223,
+      "ssim": 0.5282202961535601,
+      "target_seed": 130
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.34497742497063927,
+      "knowledge": "training",
+      "lpips": 0.33371623331471073,
+      "mae": 0.11868201200433165,
+      "mse": 0.02690800150189662,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed30125/decoder_training/attack_metrics.json",
+      "psnr": 16.466552246281477,
+      "ssim": 0.5395556797847433,
+      "target_seed": 130
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.06350705878747435,
+      "knowledge": "inference",
+      "lpips": 0.5500929834660978,
+      "mae": 0.1509457398048266,
+      "mse": 0.03685157275181536,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed10125/decoder_inference/attack_metrics.json",
+      "psnr": 14.822288178406467,
+      "ssim": 0.44502352860636485,
+      "target_seed": 130
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.05820311354709828,
+      "knowledge": "inference",
+      "lpips": 0.5741458273190916,
+      "mae": 0.1522768591806648,
+      "mse": 0.037722016041603704,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed20125/decoder_inference/attack_metrics.json",
+      "psnr": 14.743420607498557,
+      "ssim": 0.442190186439614,
+      "target_seed": 130
+    },
+    {
+      "attack": "decoder",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.03985913888227949,
+      "knowledge": "inference",
+      "lpips": 0.5682250706391485,
+      "mae": 0.15352832656167303,
+      "mse": 0.03769540529787036,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed30125/decoder_inference/attack_metrics.json",
+      "psnr": 14.726915836701309,
+      "ssim": 0.440821611670185,
+      "target_seed": 130
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.3155116420395326,
+      "knowledge": "training",
+      "lpips": 0.33194967033037176,
+      "mae": 0.12032697414352729,
+      "mse": 0.027737097390016105,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed10125/gan_training/attack_metrics.json",
+      "psnr": 16.348453194084005,
+      "ssim": 0.5246057406978761,
+      "target_seed": 130
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.1310604630777901,
+      "knowledge": "training",
+      "lpips": 0.45165084492743174,
+      "mae": 0.13599529215025472,
+      "mse": 0.0330344842883634,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed20125/gan_training/attack_metrics.json",
+      "psnr": 15.297673652411333,
+      "ssim": 0.3944203635996371,
+      "target_seed": 130
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.274274898941175,
+      "knowledge": "training",
+      "lpips": 0.3009055795049906,
+      "mae": 0.1277337268974542,
+      "mse": 0.03135555807052783,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed30125/gan_training/attack_metrics.json",
+      "psnr": 15.75732279201509,
+      "ssim": 0.4912286467297358,
+      "target_seed": 130
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.06691869320183007,
+      "knowledge": "inference",
+      "lpips": 0.6043989667532718,
+      "mae": 0.15758239387823492,
+      "mse": 0.04082826029988231,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed10125/gan_inference/attack_metrics.json",
+      "psnr": 14.40615959842908,
+      "ssim": 0.39451999091661555,
+      "target_seed": 130
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 20125,
+      "identity_cosine_similarity": 0.039242771976814535,
+      "knowledge": "inference",
+      "lpips": 0.591596596051951,
+      "mae": 0.15756591785128435,
+      "mse": 0.03954805861627991,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed20125/gan_inference/attack_metrics.json",
+      "psnr": 14.491677041233642,
+      "ssim": 0.4223930999074559,
+      "target_seed": 130
+    },
+    {
+      "attack": "gan",
+      "attacker_seed": 30125,
+      "identity_cosine_similarity": 0.020009046201067218,
+      "knowledge": "inference",
+      "lpips": 0.5923679577928033,
+      "mae": 0.15678990153370684,
+      "mse": 0.040113714128572085,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed30125/gan_inference/attack_metrics.json",
+      "psnr": 14.448675212904156,
+      "ssim": 0.42416084060492754,
+      "target_seed": 130
+    },
+    {
+      "attack": "adaptive",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.3335382463747793,
+      "knowledge": "training",
+      "lpips": 0.3533218841376739,
+      "mae": 0.11877160165824141,
+      "mse": 0.02685981451296339,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed10125/adaptive_training/attack_metrics.json",
+      "psnr": 16.47044492352701,
+      "ssim": 0.5347153349410383,
+      "target_seed": 130
+    },
+    {
+      "attack": "adaptive",
+      "attacker_seed": 10125,
+      "identity_cosine_similarity": 0.08173792723787116,
+      "knowledge": "inference",
+      "lpips": 0.5584832735480116,
+      "mae": 0.15223747147698877,
+      "mse": 0.03864877016568202,
+      "path": "results/dual_path_publication/attacks/target_seed130/attacker_seed10125/adaptive_inference/attack_metrics.json",
+      "psnr": 14.646330448000866,
+      "ssim": 0.4416825703421953,
+      "target_seed": 130
+    }
+  ],
+  "attacker_seeds": [
+    10125,
+    20125,
+    30125
+  ],
+  "checks": {
+    "accuracy": true,
+    "decoder_inference_mse": true,
+    "decoder_training_mse": true,
+    "gan_inference_mse": true,
+    "gan_training_mse": true
+  },
+  "code_provenance": {
+    "analysis_revision": "6ec69d891b8a3f9bdd92ea21bef981c58ff19049",
+    "target_training_revision": "93d61538c5aba741124e3f3f4c5558f51cc9ae3b"
+  },
+  "comparison_source": {
+    "baseline": "Noise_ARL+CEM",
+    "dataset": "FaceScrub",
+    "table": 3,
+    "title": "Theoretical Insights in Model Inversion Robustness and Conditional Entropy Maximization for Collaborative Inference Systems",
+    "venue": "CVPR 2025"
+  },
+  "component_records": [
+    {
+      "accuracy": 0.5848519800076893,
+      "component": "legacy",
+      "target_seed": 126
+    },
+    {
+      "accuracy": 0.7407920030757401,
+      "component": "semantic",
+      "target_seed": 126
+    },
+    {
+      "accuracy": 0.8175317185697808,
+      "component": "fused",
+      "target_seed": 126
+    },
+    {
+      "accuracy": 0.5925413302575933,
+      "component": "legacy",
+      "target_seed": 127
+    },
+    {
+      "accuracy": 0.7453287197231834,
+      "component": "semantic",
+      "target_seed": 127
+    },
+    {
+      "accuracy": 0.8179930795847751,
+      "component": "fused",
+      "target_seed": 127
+    },
+    {
+      "accuracy": 0.5856978085351788,
+      "component": "legacy",
+      "target_seed": 128
+    },
+    {
+      "accuracy": 0.7455594002306806,
+      "component": "semantic",
+      "target_seed": 128
+    },
+    {
+      "accuracy": 0.8190695886197616,
+      "component": "fused",
+      "target_seed": 128
+    },
+    {
+      "accuracy": 0.585928489042676,
+      "component": "legacy",
+      "target_seed": 129
+    },
+    {
+      "accuracy": 0.7587850826605153,
+      "component": "semantic",
+      "target_seed": 129
+    },
+    {
+      "accuracy": 0.8222991157247211,
+      "component": "fused",
+      "target_seed": 129
+    },
+    {
+      "accuracy": 0.5853902345251827,
+      "component": "legacy",
+      "target_seed": 130
+    },
+    {
+      "accuracy": 0.7470972702806614,
+      "component": "semantic",
+      "target_seed": 130
+    },
+    {
+      "accuracy": 0.8209150326797386,
+      "component": "fused",
+      "target_seed": 130
+    }
+  ],
+  "confidence_checks": {
+    "accuracy": true,
+    "decoder_inference_mse": true,
+    "decoder_training_mse": true,
+    "gan_inference_mse": true,
+    "gan_training_mse": true
+  },
+  "confidence_supported_dominance": true,
+  "efficiency_records": [
+    {
+      "checkpoint": "results/dual_path_publication/targets/seed126/stage2/checkpoint_best.pt",
+      "checkpoint_file_bytes": 53542194,
+      "client_latency_ms_per_sample_mean": 0.10200621200984661,
+      "client_latency_ms_per_sample_std": 0.0920814461777218,
+      "client_parameters": 20089920,
+      "device": "cuda",
+      "end_to_end_latency_ms_per_sample_mean": 0.12806761632536226,
+      "profiled_batches": 24,
+      "profiled_samples": 3055,
+      "semantic_payload_elements": 256,
+      "semantic_payload_shape": [
+        256
+      ],
+      "server_latency_ms_per_sample_mean": 0.02605535872670397,
+      "server_parameters": 10101927,
+      "spatial_payload_elements": 4096,
+      "spatial_payload_shape": [
+        16,
+        16,
+        16
+      ],
+      "target_seed": 126,
+      "total_model_state_bytes": 120887460,
+      "total_payload_elements": 4352,
+      "transmitted_bytes_per_sample_fp32": 17408
+    },
+    {
+      "checkpoint": "results/dual_path_publication/targets/seed127/stage2/checkpoint_best.pt",
+      "checkpoint_file_bytes": 53542194,
+      "client_latency_ms_per_sample_mean": 0.10276489177106617,
+      "client_latency_ms_per_sample_std": 0.08992649091622038,
+      "client_parameters": 20089920,
+      "device": "cuda",
+      "end_to_end_latency_ms_per_sample_mean": 0.12893428841137147,
+      "profiled_batches": 24,
+      "profiled_samples": 3055,
+      "semantic_payload_elements": 256,
+      "semantic_payload_shape": [
+        256
+      ],
+      "server_latency_ms_per_sample_mean": 0.026164340740139666,
+      "server_parameters": 10101927,
+      "spatial_payload_elements": 4096,
+      "spatial_payload_shape": [
+        16,
+        16,
+        16
+      ],
+      "target_seed": 127,
+      "total_model_state_bytes": 120887460,
+      "total_payload_elements": 4352,
+      "transmitted_bytes_per_sample_fp32": 17408
+    },
+    {
+      "checkpoint": "results/dual_path_publication/targets/seed128/stage2/checkpoint_best.pt",
+      "checkpoint_file_bytes": 53542194,
+      "client_latency_ms_per_sample_mean": 0.09919167058723287,
+      "client_latency_ms_per_sample_std": 0.09156600568726833,
+      "client_parameters": 20089920,
+      "device": "cuda",
+      "end_to_end_latency_ms_per_sample_mean": 0.12434224843853553,
+      "profiled_batches": 24,
+      "profiled_samples": 3055,
+      "semantic_payload_elements": 256,
+      "semantic_payload_shape": [
+        256
+      ],
+      "server_latency_ms_per_sample_mean": 0.02514527067386506,
+      "server_parameters": 10101927,
+      "spatial_payload_elements": 4096,
+      "spatial_payload_shape": [
+        16,
+        16,
+        16
+      ],
+      "target_seed": 128,
+      "total_model_state_bytes": 120887460,
+      "total_payload_elements": 4352,
+      "transmitted_bytes_per_sample_fp32": 17408
+    },
+    {
+      "checkpoint": "results/dual_path_publication/targets/seed129/stage2/checkpoint_best.pt",
+      "checkpoint_file_bytes": 53542194,
+      "client_latency_ms_per_sample_mean": 0.0992389521960539,
+      "client_latency_ms_per_sample_std": 0.09152106592837002,
+      "client_parameters": 20089920,
+      "device": "cuda",
+      "end_to_end_latency_ms_per_sample_mean": 0.12432802644865545,
+      "profiled_batches": 24,
+      "profiled_samples": 3055,
+      "semantic_payload_elements": 256,
+      "semantic_payload_shape": [
+        256
+      ],
+      "server_latency_ms_per_sample_mean": 0.025083014341296735,
+      "server_parameters": 10101927,
+      "spatial_payload_elements": 4096,
+      "spatial_payload_shape": [
+        16,
+        16,
+        16
+      ],
+      "target_seed": 129,
+      "total_model_state_bytes": 120887460,
+      "total_payload_elements": 4352,
+      "transmitted_bytes_per_sample_fp32": 17408
+    },
+    {
+      "checkpoint": "results/dual_path_publication/targets/seed130/stage2/checkpoint_best.pt",
+      "checkpoint_file_bytes": 53542194,
+      "client_latency_ms_per_sample_mean": 0.09755017404008745,
+      "client_latency_ms_per_sample_std": 0.09034673091003087,
+      "client_parameters": 20089920,
+      "device": "cuda",
+      "end_to_end_latency_ms_per_sample_mean": 0.12238687921743512,
+      "profiled_batches": 24,
+      "profiled_samples": 3055,
+      "semantic_payload_elements": 256,
+      "semantic_payload_shape": [
+        256
+      ],
+      "server_latency_ms_per_sample_mean": 0.02483126193622523,
+      "server_parameters": 10101927,
+      "spatial_payload_elements": 4096,
+      "spatial_payload_shape": [
+        16,
+        16,
+        16
+      ],
+      "target_seed": 130,
+      "total_model_state_bytes": 120887460,
+      "total_payload_elements": 4352,
+      "transmitted_bytes_per_sample_fp32": 17408
+    }
+  ],
+  "intervals": {
+    "accuracy": {
+      "confidence": 0.95,
+      "lower": 0.8180238369857747,
+      "mean": 0.8195617070357555,
+      "n_target_seeds": 5,
+      "standard_deviation": 0.0020092612085295778,
+      "upper": 0.8211610918877353
+    },
+    "adaptive_inference_mse": {
+      "confidence": 0.95,
+      "lower": 0.03712106775191309,
+      "mean": 0.037634117296790046,
+      "n_target_seeds": 5,
+      "standard_deviation": 0.0006916544802067847,
+      "upper": 0.038204053257684514
+    },
+    "adaptive_training_mse": {
+      "confidence": 0.95,
+      "lower": 0.026583875409001256,
+      "mean": 0.026779525519242342,
+      "n_target_seeds": 5,
+      "standard_deviation": 0.0002666668044630366,
+      "upper": 0.026985751734656217
+    },
+    "conservative_accuracy": {
+      "confidence": 0.95,
+      "lower": 0.8161476355247983,
+      "mean": 0.8178085351787774,
+      "n_target_seeds": 5,
+      "standard_deviation": 0.0021104430009656677,
+      "upper": 0.8194694348327566
+    },
+    "decoder_inference_mse": {
+      "confidence": 0.95,
+      "lower": 0.03689022069103386,
+      "mean": 0.03709225594645621,
+      "n_target_seeds": 5,
+      "standard_deviation": 0.00025105094750987395,
+      "upper": 0.037275739458851063
+    },
+    "decoder_training_mse": {
+      "confidence": 0.95,
+      "lower": 0.026397977027467746,
+      "mean": 0.026532018090247737,
+      "n_target_seeds": 5,
+      "standard_deviation": 0.00019132850529129816,
+      "upper": 0.02669294156127445
+    },
+    "gan_inference_mse": {
+      "confidence": 0.95,
+      "lower": 0.04001873359944474,
+      "mean": 0.04039694556279583,
+      "n_target_seeds": 5,
+      "standard_deviation": 0.0005149650441546105,
+      "upper": 0.04080836337928684
+    },
+    "gan_training_mse": {
+      "confidence": 0.95,
+      "lower": 0.03083568146453979,
+      "mean": 0.030993753927236457,
+      "n_target_seeds": 5,
+      "standard_deviation": 0.00019135789174394983,
+      "upper": 0.03114036273332982
+    }
+  },
+  "observed": {
+    "accuracy": 0.8195617070357555,
+    "decoder_inference_mse": 0.03709225594645621,
+    "decoder_training_mse": 0.026532018090247737,
+    "gan_inference_mse": 0.04039694556279583,
+    "gan_training_mse": 0.030993753927236457
+  },
+  "published": {
+    "accuracy": 0.8033,
+    "decoder_inference_mse": 0.0211,
+    "decoder_training_mse": 0.0182,
+    "gan_inference_mse": 0.0231,
+    "gan_training_mse": 0.0212
+  },
+  "stage1_records": [
+    {
+      "accuracy": 0.7727028066128412,
+      "conservative_accuracy": 0.7704728950403691,
+      "path": "results/dual_path_publication/targets/seed126/utility_stage1_l031_s010.json",
+      "target_seed": 126
+    },
+    {
+      "accuracy": 0.7617839292579779,
+      "conservative_accuracy": 0.7610149942329874,
+      "path": "results/dual_path_publication/targets/seed127/utility_stage1_l031_s010.json",
+      "target_seed": 127
+    },
+    {
+      "accuracy": 0.7460207612456747,
+      "conservative_accuracy": 0.7418685121107267,
+      "path": "results/dual_path_publication/targets/seed128/utility_stage1_l031_s010.json",
+      "target_seed": 128
+    },
+    {
+      "accuracy": 0.7797770088427528,
+      "conservative_accuracy": 0.7787773933102653,
+      "path": "results/dual_path_publication/targets/seed129/utility_stage1_l031_s010.json",
+      "target_seed": 129
+    },
+    {
+      "accuracy": 0.7740099961553248,
+      "conservative_accuracy": 0.7730103806228373,
+      "path": "results/dual_path_publication/targets/seed130/utility_stage1_l031_s010.json",
+      "target_seed": 130
+    }
+  ],
+  "status": "PASS",
+  "strictly_dominates_published_mean": true,
+  "target_attack_means": {
+    "adaptive_inference_mse": [
+      0.037896684906499216,
+      0.03753697789568824,
+      0.03727790334758802,
+      0.03681025016849274,
+      0.03864877016568202
+    ],
+    "adaptive_training_mse": [
+      0.026493127618281487,
+      0.026789848220572936,
+      0.02717465756719546,
+      0.026580179677198414,
+      0.02685981451296339
+    ],
+    "decoder_inference_mse": [
+      0.03705485160148294,
+      0.03719805900274193,
+      0.03673383667740052,
+      0.037051534420225844,
+      0.03742299803042981
+    ],
+    "decoder_training_mse": [
+      0.026835368649097618,
+      0.026364597546417224,
+      0.026379583823929898,
+      0.02657901803514949,
+      0.026501522396644477
+    ],
+    "gan_inference_mse": [
+      0.041074442013061936,
+      0.04072401099612475,
+      0.03974404884418647,
+      0.0402788816123612,
+      0.04016334434824478
+    ],
+    "gan_training_mse": [
+      0.0309688676401207,
+      0.03099152507437325,
+      0.031239587839300868,
+      0.031059742499418355,
+      0.03070904658296911
+    ]
+  },
+  "target_seeds": [
+    126,
+    127,
+    128,
+    129,
+    130
+  ],
+  "utility_records": [
+    {
+      "accuracy": 0.8175317185697808,
+      "conservative_accuracy": 0.8156862745098039,
+      "path": "results/dual_path_publication/targets/seed126/utility_l031_s010.json",
+      "target_seed": 126
+    },
+    {
+      "accuracy": 0.8179930795847751,
+      "conservative_accuracy": 0.8154555940023068,
+      "path": "results/dual_path_publication/targets/seed127/utility_l031_s010.json",
+      "target_seed": 127
+    },
+    {
+      "accuracy": 0.8190695886197616,
+      "conservative_accuracy": 0.8184544405997694,
+      "path": "results/dual_path_publication/targets/seed128/utility_l031_s010.json",
+      "target_seed": 128
+    },
+    {
+      "accuracy": 0.8222991157247211,
+      "conservative_accuracy": 0.8198385236447521,
+      "path": "results/dual_path_publication/targets/seed129/utility_l031_s010.json",
+      "target_seed": 129
+    },
+    {
+      "accuracy": 0.8209150326797386,
+      "conservative_accuracy": 0.8196078431372549,
+      "path": "results/dual_path_publication/targets/seed130/utility_l031_s010.json",
+      "target_seed": 130
+    }
+  ]
+}

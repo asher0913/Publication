@@ -1,0 +1,18 @@
+{
+  "device": "cpu",
+  "face_embedding_norm_error_max": 0.0,
+  "face_embedding_shape": [
+    2,
+    512
+  ],
+  "face_model": "InceptionResnetV1-vggface2",
+  "face_weights_sha256": "5c0e9cffe437d424e5a44fe88704096c5383520caaa5bc4314835a74120f9a19",
+  "facenet_pytorch_package_version": "2.6.0",
+  "lpips_net": "alex",
+  "lpips_package_version": "0.1.4",
+  "lpips_self_distance_max": 0.0,
+  "lpips_version": "0.1",
+  "lpips_weights_sha256": "20fc98e65ef1943428b396c1c8c14a42dceb0e12e6bb015caafbe157c25abec8",
+  "schema_version": 1,
+  "status": "VERIFIED"
+}
